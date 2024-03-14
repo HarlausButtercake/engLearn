@@ -1,6 +1,7 @@
 package com.example.eng_proj;
 
 import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -15,7 +16,11 @@ public class DictionaryManagement {
 
     public void insertFromCommandline(Dictionary dictionary) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("How many words do you want to add ?");
+        System.out.println("How many words do you want to add ? (Press 0 to return)");
+        while (!scan.hasNextInt()) {
+            System.out.println("Please enter a valid number!");
+            scan.next();
+        } 
         int count = scan.nextInt();
         scan.nextLine();
      
@@ -33,17 +38,22 @@ public class DictionaryManagement {
         if (inputStream != null) {
             try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream))) {
                 String line;
+                int count = 0;
                 while ((line = bufferedReader.readLine()) != null) {
                     String[] parts = line.split("\t");
-                    dictionary.addWord(new Word(parts[0], parts[1]));
+                    if (parts.length >= 2) {
+                        // System.out.println(parts[0] + " cunt " + parts[1]);
+                        dictionary.addWord(new Word(parts[0].trim(), parts[1].trim()));
+                        count++;
+                    }                
                 }
+                System.out.println("Inserted " + count + " words from file successfully!");
             } catch (IOException e) {
                 e.printStackTrace();
             }
         } else {
             System.err.println("File not found!");
         }
-
     }
 }
 
