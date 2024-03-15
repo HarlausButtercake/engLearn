@@ -34,6 +34,7 @@ public class Main {
                 scanner.next();
             }                
             intput = scanner.nextInt();
+            scanner.nextLine();
             switch (intput) {
                 case 0:
                     break out;

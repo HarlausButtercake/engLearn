@@ -24,7 +24,12 @@ public class DictionaryCommandline {
     }
 
     public void dictionarySearcher() {
-        // Scanner scanner = new Scanner(System.in);
-
+        System.out.println("Type in your keyword:");
+        String key = Main.scanner.nextLine();
+        for (Word word : Main.dictionary.wordArr) {
+            if (word.getTarget().startsWith(key)) {
+                word.rawPrintWord();
+            }
+        }
     }
 }
