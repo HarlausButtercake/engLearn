@@ -3,11 +3,14 @@ package com.example.eng_proj;
 import java.util.Scanner;
 
 public class Main {
+    public static Scanner scanner = new Scanner(System.in);
+    public static Dictionary dictionary = new Dictionary();
+
     public static void main(String[] args) {
-        Dictionary dictionary = new Dictionary();
+        
         DictionaryCommandline dictionaryCommandline = new DictionaryCommandline();
         DictionaryManagement dictionaryManagement = new DictionaryManagement();
-        Scanner scanner = new Scanner(System.in);
+        
         int intput;
         out:
         while(true) {
@@ -26,8 +29,6 @@ public class Main {
                         "[9] Import from file\r\n" + //
                         "=============================================");    
                         
-                        
-                        
             while (!scanner.hasNextInt()) {
                 System.out.println("Action not supported!");
                 scanner.next();
@@ -37,13 +38,16 @@ public class Main {
                 case 0:
                     break out;
                 case 1:
-                    dictionaryCommandline.showAllWordsSequence(dictionary);
+                    dictionaryCommandline.showAllWords();
                     break;
                 case 2:
-                    dictionaryManagement.insertFromCommandline(dictionary);
+                    dictionaryManagement.insertFromCommandline();
+                    break;
+                case 7:
+                    dictionaryCommandline.dictionarySearcher();
                     break;
                 case 9:
-                    dictionaryManagement.insertFromFile(dictionary);
+                    dictionaryManagement.insertFromFile();
                     break;
                 default:
                     System.out.println("Malussy");
