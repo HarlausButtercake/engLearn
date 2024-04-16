@@ -13,14 +13,17 @@ Hotel	Trivago
 69	Nice
 Nice	A city in France
 France	A nation that hates England
+Word1	Duplicate first
 England	A nation that hates France
 EU	A hotpot of nations that hate each other
 Hotpot	A dish involving no dishes whatsoever
 Blunt	Not sharp, enough
+Word1	Dup 2
 Cook	The one who cooks
 Cooker	The thing that cooks
 Java	Indonesia or smth i don't travel much
 Shotgun	Gun that fires shots
 German	Widely known for their humour
 China	Porcelain ?
+Word1	Dup 3
 Italy	Italy mentioned ?! Rahhhhhhh. Wtf is a pineapple ?

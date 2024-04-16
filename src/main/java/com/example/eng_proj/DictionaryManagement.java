@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.HashSet;
+import java.util.Set;
 
 public class DictionaryManagement {
 
@@ -29,7 +31,7 @@ public class DictionaryManagement {
         }           
     }
 
-    public void insertFromFile() {
+    public void insertWordFromFile() {
         InputStream inputStream = getClass().getResourceAsStream("/dictionaries.txt");
         if (inputStream != null) {
             try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream))) {
@@ -38,7 +40,7 @@ public class DictionaryManagement {
                 while ((line = bufferedReader.readLine()) != null) {
                     String[] parts = line.split("\t");
                     if (parts.length >= 2) {
-                        // System.out.println(parts[0] + " cunt " + parts[1]);
+                        // System.out.println(parts[0] + " coont " + parts[1]);
                         Main.dictionary.addWord(new Word(parts[0].trim(), parts[1].trim()));
                         count++;
                     }                
@@ -52,5 +54,22 @@ public class DictionaryManagement {
         }
     }
 
+    
+
+    public void removeDupeWords() {
+        Set<String> uniqueFields = new HashSet<>();
+        int i = 0;
+
+        while (i < Main.dictionary.getSize()) {
+            Word obj = Main.dictionary.getWord(i);
+            if (uniqueFields.contains(obj.getTarget())) {
+                Main.dictionary.removeWord(i);
+            } else {
+                uniqueFields.add(obj.getTarget());
+                i++;
+            }
+        }
+
+    }
 }
 
