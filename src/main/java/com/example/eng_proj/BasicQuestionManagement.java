@@ -6,7 +6,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Random;
+// import java.util.Random;
 
 public class BasicQuestionManagement {
     public ArrayList<BasicQuestion> questArr;
@@ -16,7 +16,7 @@ public class BasicQuestionManagement {
     }
 
     public ArrayList<String> makeSelection(BasicQuestion ques, int diffi) {
-        Random random = new Random();
+        // Random random = new Random();
         ArrayList<String> randomElements = new ArrayList<>();
         Collections.shuffle(ques.getWrongAnswer());
         for (int i = 0; i < diffi; i++) {

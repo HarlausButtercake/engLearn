@@ -2,7 +2,7 @@ package com.example.eng_proj;
 
 import java.util.Collections;
 
-public class DictionaryCommandline {
+public class DictionaryCommandline extends Dictionary {
 
     public DictionaryCommandline() {
        
