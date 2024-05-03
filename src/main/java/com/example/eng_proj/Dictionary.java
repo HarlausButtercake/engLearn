@@ -2,36 +2,34 @@ package com.example.eng_proj;
 
 import java.util.ArrayList;
 
-public class Dictionary {      
-    private ArrayList<Word> wordArr; 
-    
+public class Dictionary extends ArrayList<Word> {
+//    private ArrayList<Word> wordArr;
 
+//    public Dictionary() {
+//        this.wordArr = new ArrayList<Word>();
+//    }
 
-    public Dictionary() {
-        this.wordArr = new ArrayList<Word>();
-    }
-
-    public ArrayList<Word> getArr() {
-        return wordArr;
-    }
-
-    public void addWord(Word word) {
-        wordArr.add(word);
-    }
-
-    public void removeWord(Word word) {
-        wordArr.remove(word);
-    }
-    public void removeWord(int word) {
-        wordArr.remove(word);
-    }
-
-    public Word getWord(int i) {
-        return wordArr.get(i);
-    }
-    public int getSize() {
-        return wordArr.size();
-    }
+//    public ArrayList<Word> getArr() {
+//        return wordArr;
+//    }
+//
+//    public void addWord(Word word) {
+//        wordArr.add(word);
+//    }
+//
+//    public void removeWord(Word word) {
+//        wordArr.remove(word);
+//    }
+//    public void removeWord(int word) {
+//        wordArr.remove(word);
+//    }
+//
+//    public Word getWord(int i) {
+//        return wordArr.get(i);
+//    }
+//    public int getSize() {
+//        return wordArr.size();
+//    }
 }
 
 

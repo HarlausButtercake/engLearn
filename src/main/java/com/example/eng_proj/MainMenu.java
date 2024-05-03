@@ -16,6 +16,7 @@ public class MainMenu extends JFrame {
 
     public MainMenu() {
         super("EngLearn");
+        this.setJMenuBar(new JMenuBar());
         setContentPane(panel1);
         setBounds(20,20,1024,768);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

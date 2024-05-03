@@ -7,6 +7,9 @@ import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.Set;
 
+import static com.example.eng_proj.Main.dictionary;
+import static com.example.eng_proj.Main.scanner;
+
 public class DictionaryManagement {
 
     public DictionaryManagement() {
@@ -15,19 +18,19 @@ public class DictionaryManagement {
 
     public void insertFromCommandline() {
         System.out.println("How many words do you want to add ? (Press 0 to return)");
-        while (!Main.scanner.hasNextInt()) {
+        while (!scanner.hasNextInt()) {
             System.out.println("Please enter a valid number!");
-            Main.scanner.next();
+            scanner.next();
         } 
-        int count = Main.scanner.nextInt();
-        Main.scanner.nextLine();
+        int count = scanner.nextInt();
+        scanner.nextLine();
      
         for (int i = 0; i < count; i++) {        
-            System.out.println("Enter your word:");
-            String dumb = Main.scanner.nextLine();
-            System.out.println("What is the word definition ?");
-            String bump = Main.scanner.nextLine();
-            Main.dictionary.addWord(new Word(dumb, bump));
+            System.out.print("Enter your word: ");
+            String dumb = scanner.nextLine();
+            System.out.print("Enter the word's definition: ");
+            String bump = scanner.nextLine();
+            dictionary.add(new Word(dumb, bump));
         }           
     }
 
@@ -41,29 +44,28 @@ public class DictionaryManagement {
                     String[] parts = line.split("\t");
                     if (parts.length >= 2) {
                         // System.out.println(parts[0] + " coont " + parts[1]);
-                        Main.dictionary.addWord(new Word(parts[0].trim(), parts[1].trim()));
+                        dictionary.add(new Word(parts[0].trim(), parts[1].trim()));
                         count++;
                     }                
                 }
                 System.out.println("Inserted " + count + " words from file successfully!");
             } catch (IOException e) {
                 e.printStackTrace();
+                System.out.println("Reading from file failed to succeed :3");
             }
         } else {
-            System.err.println("File not found!");
+            System.out.println("File not found!");
         }
     }
-
-    
 
     public void removeDupeWords() {
         Set<String> uniqueFields = new HashSet<>();
         int i = 0;
 
-        while (i < Main.dictionary.getSize()) {
-            Word obj = Main.dictionary.getWord(i);
+        while (i < dictionary.size()) {
+            Word obj = dictionary.get(i);
             if (uniqueFields.contains(obj.getTarget())) {
-                Main.dictionary.removeWord(i);
+                dictionary.remove(i);
             } else {
                 uniqueFields.add(obj.getTarget());
                 i++;
