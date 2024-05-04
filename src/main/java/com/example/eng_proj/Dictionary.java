@@ -3,6 +3,16 @@ package com.example.eng_proj;
 import java.util.ArrayList;
 
 public class Dictionary extends ArrayList<Word> {
+
+    private static Dictionary dictionary;
+
+    public static Dictionary get() {
+        if (dictionary == null) {
+            dictionary = new Dictionary();
+        }
+//        return this;
+        return dictionary;
+    }
 //    private ArrayList<Word> wordArr;
 
 //    public Dictionary() {

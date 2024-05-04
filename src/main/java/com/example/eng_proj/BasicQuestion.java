@@ -59,12 +59,12 @@ public class BasicQuestion {
     public String questionToString(int diff) {
         ArrayList<String> select = manage.makeSelection(this, diff);
         String s = this.getQuestion() + "\n";
-        s += "[A] " + select.get(0) + "\n";
-        s += "[B] " + select.get(1) + "\n";
+        s += "[1] " + select.get(0) + "\n";
+        s += "[2] " + select.get(1) + "\n";
         if (diff >= 3 && select.size() >= 3) {
-            s += "[C] " + select.get(2) + "\n";
+            s += "[3] " + select.get(2) + "\n";
             if (diff == 4 && select.size() >= 4) {
-                s += "[D] " + select.get(3) + "\n";
+                s += "[4] " + select.get(3) + "\n";
             }
         } 
         return s;

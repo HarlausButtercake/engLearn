@@ -1,70 +1,89 @@
 package com.example.eng_proj;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
 
-import static com.example.eng_proj.Main.dictionary;
+//import static com.example.eng_proj.Main.dictionary;
 import static com.example.eng_proj.Main.scanner;
 
 public class DictionaryCommandline extends Dictionary {
 
-    public void showAllWordsSequence() {
-        for (int i = 0; i < dictionary.size(); i++) {
-            dictionary.get(i).rawPrintWord();
+    public void insertFromCommandline() {
+        System.out.println("How many words do you want to add ? (Press 0 to return)");
+        while (!scanner.hasNextInt()) {
+            System.out.println("Please enter a valid number!");
+            scanner.next();
+        }
+        int count = scanner.nextInt();
+        scanner.nextLine();
+
+        for (int i = 0; i < count; i++) {
+            System.out.print("Enter your word: ");
+            String dumb = scanner.nextLine();
+            System.out.print("Enter the word's definition: ");
+            String bump = scanner.nextLine();
+            Dictionary.get().add(new Word(dumb, bump));
         }
     }
 
-    public void sortAlpha() {
-        dictionary.sort((o1, o2)
-                  -> o1.getTarget().compareTo(
-                      o2.getTarget()));
+    public void insertWordFromFile(InputStream inputStream) {
+//        InputStream inputStream = getClass().getResourceAsStream("/dictionaries.txt");
+        if (inputStream != null) {
+            try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream))) {
+                String line;
+                int count = 0;
+                while ((line = bufferedReader.readLine()) != null) {
+                    String[] parts = line.split("\t");
+                    if (parts.length >= 2) {
+                        // System.out.println(parts[0] + " coont " + parts[1]);
+                        Dictionary.get().add(new Word(parts[0].trim(), parts[1].trim()));
+                        count++;
+                    }
+                }
+                System.out.println("Inserted " + count + " words from file successfully!");
+            } catch (IOException e) {
+                e.printStackTrace();
+                System.out.println("Reading from file failed to succeed :3");
+            }
+        } else {
+            System.out.println("File not found!");
+        }
     }
 
     public void showAllWords() {
-        sortAlpha();
-        showAllWordsSequence();
+        DictionaryManagement.get().sortAlpha();
+        DictionaryManagement.get().showAllWordsSequence();
     }
 
     public void dictionarySearcher() {
         System.out.println("Type in your keyword:");
         String key = scanner.nextLine();
-        for (Word word : dictionary) {
+        for (Word word : Dictionary.get()) {
             if (word.getTarget().toLowerCase().startsWith(key.toLowerCase())) {
                 word.rawPrintWord();
             }
         }
     }
 
-    public void startGame() {
-        System.out.println("Choose difficulty from 1 to 3!");     
-        int difficulty = 0;
-        while (true) {
-            if (scanner.hasNextInt()) {
-                int input = scanner.nextInt();
-                if (input >= 1 && input <= 3) {
-                    difficulty = input;
-                    break;
-                }
-            }
-            System.out.println("Please enter a valid number!");
-            scanner.next(); // Consume invalid input
-        }
-    
-
-        System.out.print("Starting the questionnaire with the difficulty of " + difficulty);
-        for (int i = 0; i <= 5; i++) {
-            System.out.print(".");
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+    public void removeDupeWords() {
+        Set<String> uniqueFields = new HashSet<>();
+        int i = 0;
+        int count = 0;
+        while (i < Dictionary.get().size()) {
+            Word obj = Dictionary.get().get(i);
+            if (uniqueFields.contains(obj.getTarget())) {
+                Dictionary.get().remove(i);
+                count++;
+            } else {
+                uniqueFields.add(obj.getTarget());
+                i++;
             }
         }
-        System.out.println("\nLoading complete!");
-     
-        Collections.shuffle(Main.basicQuestionManagement.questArr);
-        for (int i = 0; i < Main.basicQuestionManagement.questArr.size(); i++) {   
-            System.out.println("Question " + (i + 1) + ":");
-            System.out.println(Main.basicQuestionManagement.questArr.get(i).questionToString(difficulty + 1));
-        }       
+        System.out.println("Found and removed " + count + " words!");
     }
 }

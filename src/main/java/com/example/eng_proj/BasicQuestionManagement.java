@@ -8,11 +8,20 @@ import java.util.ArrayList;
 import java.util.Collections;
 // import java.util.Random;
 
-public class BasicQuestionManagement {
-    public ArrayList<BasicQuestion> questArr;
+public class BasicQuestionManagement extends ArrayList<BasicQuestion> {
+//    public ArrayList<BasicQuestion> questArr;
 
-    public BasicQuestionManagement() {
-        questArr = new ArrayList<>();
+    private static BasicQuestionManagement basicQuestionManagement;
+
+//    public BasicQuestionManagement() {
+//        questArr = new ArrayList<>();
+//    }
+
+    public static BasicQuestionManagement get() {
+        if (basicQuestionManagement == null) {
+            basicQuestionManagement = new BasicQuestionManagement();
+        }
+        return basicQuestionManagement;
     }
 
     public ArrayList<String> makeSelection(BasicQuestion ques, int diffi) {
@@ -48,7 +57,7 @@ public class BasicQuestionManagement {
                         for(int i = 2; i < parts.length; i++) {
                             wrong.add(parts[i].trim());
                         }
-                        questArr.add(new BasicQuestion(parts[0].trim(), parts[1].trim(), wrong));
+                        this.add(new BasicQuestion(parts[0].trim(), parts[1].trim(), wrong));
                         count++;
                     }                
                 }
