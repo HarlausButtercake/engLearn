@@ -22,59 +22,35 @@ public class MainMenu extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 //        setVisible(true);
 //
-//        final DefaultListModel colorsName = new DefaultListModel();
-//        colorsName.addElement("Green");
-//        colorsName.addElement("Red");
-//        colorsName.addElement("Yellow");
-//        colorsName.addElement("Black");
-//        list1 = new JList(colorsName);
+//        final DefaultListModel wordList = new DefaultListModel();
+//        wordList.addElement("Green");
+//        wordList.addElement("Red");
+//        wordList.addElement("Yellow");
+//        wordList.addElement("Black");
+//        list1 = new JList(wordList);
 //        list1.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 //        list1.setSelectedIndex(0);
 //        list1.setVisibleRowCount(3);
 //
 //        JScrollPane listScroll = new JScrollPane(list1);
 
-        ArrayList<String> colorsName = new ArrayList<>();
-        colorsName.add("Green");
-        colorsName.add("Red");
-        colorsName.add("Yellow");
-        colorsName.add("Black");
-        colorsName.add("Green");
-        colorsName.add("Red");
-        colorsName.add("Yellow");
-        colorsName.add("Black");
-        colorsName.add("Green");
-        colorsName.add("Red");
-        colorsName.add("Yellow");
-        colorsName.add("Black");
-        colorsName.add("Green");
-        colorsName.add("Red");
-        colorsName.add("Yellow");
-        colorsName.add("Black");
-        colorsName.add("Green");
-        colorsName.add("Red");
-        colorsName.add("Yellow");
-        colorsName.add("Black");
-        colorsName.add("Green");
-        colorsName.add("Red");
-        colorsName.add("Yellow");
-        colorsName.add("Black");
-        colorsName.add("Green");
-        colorsName.add("Red");
-        colorsName.add("Yellow");
-        colorsName.add("Black");
-        colorsName.add("Green");
-        colorsName.add("Red");
-        colorsName.add("Yellow");
-        colorsName.add("Black");
+        ArrayList<String> wordList = new ArrayList<>();
+        for (Word word: Dictionary.get()) {
+            wordList.add(word.getTarget());
+        }
 
-        String[] data = colorsName.toArray(new String[colorsName.size()]);
+//        wordList.add("Homo");
+//        wordList.add("Homo");
+//        wordList.add("Homo");
+//        wordList.add("Homo");
+//        wordList.add("Homo");
+//        wordList.add("Homo");
+
+        String[] data = wordList.toArray(new String[wordList.size()]);
 
         Font currentFont = list1.getFont();
         Font newFont = currentFont.deriveFont(20f);
         list1.setFont(newFont);
-
-
         list1.setListData(data);
         list1.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         list1.setSelectedIndex(0);

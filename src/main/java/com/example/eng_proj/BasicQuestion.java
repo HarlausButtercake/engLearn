@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 
 public class BasicQuestion {
-    protected String question;
-    protected String answer;
-    protected ArrayList<String> wrongAnswer;
-    protected int answerKey = -1;
+    private String question;
+    private String answer;
+    private ArrayList<String> wrongAnswer;
+    private int answerKey;
     BasicQuestionManagement manage = new BasicQuestionManagement();
 
     public BasicQuestion(String ques, String ans, ArrayList<String> wro) {
@@ -16,23 +16,19 @@ public class BasicQuestion {
         this.wrongAnswer = wro;
     }
 
-    public void setAnswerKey(int answerKey) {
-        this.answerKey = answerKey;
-    }
-
     public int getAnswerKey() {
         return answerKey;
     }
 
-    // public void setAnswerKey(int answerKey) {
-    //     this.answerKey = answerKey;
-    // }
+     public void setAnswerKey(int answerKey) {
+         this.answerKey = answerKey;
+     }
 
-    public void addWrongAnswer(String s1) {
-        if (!s1.equals(answer)) {
-            this.wrongAnswer.add(s1);
-        }
-    }
+//    public void addWrongAnswer(String s1) {
+//        if (!s1.equals(answer)) {
+//            this.wrongAnswer.add(s1);
+//        }
+//    }
 
     public ArrayList<String> getWrongAnswer() {
         return wrongAnswer;
@@ -40,6 +36,10 @@ public class BasicQuestion {
 
     public String getQuestion() {
         return question;
+    }
+
+    public void setQuestion(String question) {
+        this.question = question;
     }
 
 
@@ -52,12 +52,12 @@ public class BasicQuestion {
     }
 
 
-    public boolean isCorrect(int submission) {
-        return submission == answerKey;
+    public boolean isCorrect(String submission) {
+        return submission.equals(answer);
     }
 
     public String questionToString(int diff) {
-        ArrayList<String> select = manage.makeSelection(this, diff);
+        ArrayList<String> select = BasicQuestionManagement.get().shuffleSelection(this, diff);
         String s = this.getQuestion() + "\n";
         s += "[1] " + select.get(0) + "\n";
         s += "[2] " + select.get(1) + "\n";
@@ -66,7 +66,7 @@ public class BasicQuestion {
             if (diff == 4 && select.size() >= 4) {
                 s += "[4] " + select.get(3) + "\n";
             }
-        } 
+        }
         return s;
     }
 

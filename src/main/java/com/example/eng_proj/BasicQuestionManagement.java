@@ -8,23 +8,24 @@ import java.util.ArrayList;
 import java.util.Collections;
 // import java.util.Random;
 
-public class BasicQuestionManagement extends ArrayList<BasicQuestion> {
+public class BasicQuestionManagement {
 //    public ArrayList<BasicQuestion> questArr;
 
-    private static BasicQuestionManagement basicQuestionManagement;
+//    private static BasicQuestionManagement basicQuestionManagement;
 
 //    public BasicQuestionManagement() {
 //        questArr = new ArrayList<>();
 //    }
 
+    private static BasicQuestionManagement instance;
     public static BasicQuestionManagement get() {
-        if (basicQuestionManagement == null) {
-            basicQuestionManagement = new BasicQuestionManagement();
+        if (instance == null) {
+            instance = new BasicQuestionManagement();
         }
-        return basicQuestionManagement;
+        return instance;
     }
 
-    public ArrayList<String> makeSelection(BasicQuestion ques, int diffi) {
+    public ArrayList<String> shuffleSelection(BasicQuestion ques, int diffi) {
         // Random random = new Random();
         ArrayList<String> randomElements = new ArrayList<>();
         Collections.shuffle(ques.getWrongAnswer());
@@ -42,7 +43,7 @@ public class BasicQuestionManagement extends ArrayList<BasicQuestion> {
         return randomElements;
     }
 
-    
+
 
     public void insertQuestionFromFile() {
         InputStream inputStream = getClass().getResourceAsStream("/questionnaire.txt");
@@ -57,7 +58,7 @@ public class BasicQuestionManagement extends ArrayList<BasicQuestion> {
                         for(int i = 2; i < parts.length; i++) {
                             wrong.add(parts[i].trim());
                         }
-                        this.add(new BasicQuestion(parts[0].trim(), parts[1].trim(), wrong));
+                        Questionnaire.get().add(new BasicQuestion(parts[0].trim(), parts[1].trim(), wrong));
                         count++;
                     }                
                 }

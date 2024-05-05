@@ -11,11 +11,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        BasicQuestionManagement.get().insertQuestionFromFile();
+        new InitProgram();
+
         new CmdLine();
-
-
 //        new MainMenu();
+
 
         scanner.close();
     }

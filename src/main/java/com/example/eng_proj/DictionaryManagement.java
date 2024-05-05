@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -11,13 +12,13 @@ import java.util.Set;
 import static com.example.eng_proj.Main.scanner;
 
 public class DictionaryManagement {
-    private static DictionaryManagement dictionaryManagement;
 
+    private static DictionaryManagement instance;
     public static DictionaryManagement get() {
-        if (dictionaryManagement == null) {
-            dictionaryManagement = new DictionaryManagement();
+        if (instance == null) {
+            instance = new DictionaryManagement();
         }
-        return dictionaryManagement;
+        return instance;
     }
 
     public void sortAlpha() {
@@ -32,19 +33,21 @@ public class DictionaryManagement {
         }
     }
 
-//    public int waitForIntInput(int min,int max) {
-//
-//        while (true) {
-//
-//            if (legit >= min && legit <= max) {
-//                return legit;
-//            } else {
-//                System.out.println("Action not supported!");
-//                scanner.next();
-//            }
-//        }
-//
-//    }
+    public ArrayList<Word> searchKeyword(String key) {
+        ArrayList<Word> returnee = new ArrayList<>();
+        for (Word word : Dictionary.get()) {
+            if (word.getTarget().toLowerCase().startsWith(key.toLowerCase())) {
+                returnee.add(word);
+            }
+        }
+        return returnee;
+    }
+
+    public void showWordArray(ArrayList<Word> words) {
+        for (Word word : words) {
+            word.rawPrintWord();
+        }
+    }
 
 
 

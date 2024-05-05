@@ -2,8 +2,10 @@ package com.example.eng_proj;
 
 import java.util.Collections;
 
+import static com.example.eng_proj.Main.scanner;
+
 public class GameManagement {
-    private static GameManagement gameManagement;
+    private GameManagement gameManagement;
 
     public GameManagement() {
         //        System.out.println("Choose difficulty from 1 to 3!");
@@ -22,22 +24,47 @@ public class GameManagement {
 //
 //
 //        System.out.print("Starting the questionnaire with the difficulty of " + difficulty);
-        System.out.print("Starting the questionnaire!");
+        System.out.print("Starting the questionnaire! Enter 0 to exit.");
         int difficulty = 3;
-//        for (int i = 0; i <= 5; i++) {
-//            System.out.print(".");
-//            try {
-//                Thread.sleep(100);
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            }
-//        }
-//        System.out.println("\nLoading complete!");
+        for (int i = 0; i <= 3; i++) {
+            System.out.print(".");
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        System.out.println("\n");
 
-        Collections.shuffle(BasicQuestionManagement.get());
-        for (int i = 0; i < BasicQuestionManagement.get().size(); i++) {
+        Collections.shuffle(Questionnaire.get());
+        for (int i = 0; i < Questionnaire.get().size(); i++) {
             System.out.println("Question " + (i + 1) + ":");
-            System.out.println(BasicQuestionManagement.get().get(i).questionToString(difficulty + 1));
+            System.out.println(Questionnaire.get().get(i).questionToString(difficulty + 1));
+
+            int legit;
+            int wrongSize = Questionnaire.get().get(i).getWrongAnswer().size();
+            while (true) {
+                System.out.print("Your answer: ");
+                while (!scanner.hasNextInt()) {
+                    System.out.println("Action not supported!");
+                    scanner.next();
+                }
+                legit = scanner.nextInt();
+                if (legit == 0) {
+                    i = Questionnaire.get().size();
+                    break;
+                } else if (legit >= 1 && legit <= ((wrongSize >= 3) ? 4 : (wrongSize + 1))) {
+                    if (legit == Questionnaire.get().get(i).getAnswerKey() + 1) {
+                        System.out.println(Randomized.getReply(Randomized.CORRECT));
+                        break;
+                    } else {
+                        System.out.print(Randomized.getReply(Randomized.INCORRECT));
+                    }
+                } else {
+                    System.out.print("Action not supported! ");
+                }
+
+            }
 
 
 

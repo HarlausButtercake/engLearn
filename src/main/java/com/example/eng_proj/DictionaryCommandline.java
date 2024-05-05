@@ -4,14 +4,21 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
 //import static com.example.eng_proj.Main.dictionary;
 import static com.example.eng_proj.Main.scanner;
 
-public class DictionaryCommandline extends Dictionary {
+public class DictionaryCommandline {
+
+    private static DictionaryCommandline instance;
+    public static DictionaryCommandline get() {
+        if (instance == null) {
+            instance = new DictionaryCommandline();
+        }
+        return instance;
+    }
 
     public void insertFromCommandline() {
         System.out.println("How many words do you want to add ? (Press 0 to return)");
@@ -41,7 +48,7 @@ public class DictionaryCommandline extends Dictionary {
                     String[] parts = line.split("\t");
                     if (parts.length >= 2) {
                         // System.out.println(parts[0] + " coont " + parts[1]);
-                        Dictionary.get().add(new Word(parts[0].trim(), parts[1].trim()));
+                        Dictionary.get().add(new Word(parts[0].trim().toLowerCase(), parts[1].trim()));
                         count++;
                     }
                 }
@@ -56,18 +63,16 @@ public class DictionaryCommandline extends Dictionary {
     }
 
     public void showAllWords() {
-        DictionaryManagement.get().sortAlpha();
+//        DictionaryManagement.get().sortAlpha();
         DictionaryManagement.get().showAllWordsSequence();
     }
 
-    public void dictionarySearcher() {
-        System.out.println("Type in your keyword:");
+
+
+    public void dictionaryCmdlSearcher() {
+        System.out.print("Type in your keyword:");
         String key = scanner.nextLine();
-        for (Word word : Dictionary.get()) {
-            if (word.getTarget().toLowerCase().startsWith(key.toLowerCase())) {
-                word.rawPrintWord();
-            }
-        }
+        DictionaryManagement.get().showWordArray(DictionaryManagement.get().searchKeyword(key));
     }
 
     public void removeDupeWords() {

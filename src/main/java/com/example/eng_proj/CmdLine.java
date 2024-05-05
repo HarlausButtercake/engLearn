@@ -7,8 +7,8 @@ public class CmdLine {
     public CmdLine() {
         DictionaryCommandline dictionaryCommandline = new DictionaryCommandline();
 
-        BasicQuestionManagement.get().insertQuestionFromFile();
-        dictionaryCommandline.insertWordFromFile(getClass().getResourceAsStream("/base_dictionary.txt"));
+//        BasicQuestionManagement.get().insertQuestionFromFile();
+//        dictionaryCommandline.insertWordFromFile(getClass().getResourceAsStream("/base_dictionary.txt"));`
 //        int intput;
         out:
         while(true) {
@@ -27,7 +27,7 @@ public class CmdLine {
                             "[9] Import from file\r\n" + //
                             "=============================================");
             shorted:
-            System.out.print("Your next action ?: ");
+            System.out.print("Your next action: ");
             while (!scanner.hasNextInt()) {
                 System.out.println("Action not supported!");
                 scanner.next();
@@ -47,7 +47,7 @@ public class CmdLine {
                     dictionaryCommandline.removeDupeWords();
                     break;
                 case 7:
-                    dictionaryCommandline.dictionarySearcher();
+                    dictionaryCommandline.dictionaryCmdlSearcher();
                     break;
                 case 8:
                     new GameManagement();
