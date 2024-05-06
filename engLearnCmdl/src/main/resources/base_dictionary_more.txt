@@ -4921,8 +4921,7 @@ tape	băng
 target	mục tiêu
 task	bài tập
 taste	nếm thử
-tax	thuế
-taxpayer	người nộp thuế
+tax	thuếtaxpayer	người nộp thuế
 tea	trà
 teach	dạy
 teacher	giáo viên

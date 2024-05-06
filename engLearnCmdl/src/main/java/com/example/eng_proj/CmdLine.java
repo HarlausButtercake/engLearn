@@ -10,8 +10,8 @@ public class CmdLine {
         out:
         while(true) {
             System.out.println(
-                    "=============================================\r\n" + //
-                            "Welcome to My Application!\r\n" + //
+                            "=============================================\r\n" + //
+                            "Welcome to EngLearn: Commandline Edition!\r\n" + //
                             "[0] Exit\r\n" + //
                             "[1] Show all words\r\n" + //
                             "[2] Add words manually\r\n" + //
@@ -23,7 +23,6 @@ public class CmdLine {
                             "[8] Game\r\n" + //
                             "[9] Import from file\r\n" + //
                             "=============================================");
-            shorted:
             System.out.print("Your next action: ");
             while (!scanner.hasNextInt()) {
                 System.out.println("Action not supported!");
@@ -38,6 +37,9 @@ public class CmdLine {
                     dictionaryCommandline.showAllWords();
                     break;
                 case 2:
+                    dictionaryCommandline.insertFromCommandline();
+                    break;
+                case 3:
                     dictionaryCommandline.insertFromCommandline();
                     break;
                 case 4:

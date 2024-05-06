@@ -20,6 +20,8 @@ public class DictionaryCommandline {
         return instance;
     }
 
+    public void removeFromCommandline
+
     public void insertFromCommandline() {
         System.out.println("How many words do you want to add ? (Press 0 to return)");
         while (!scanner.hasNextInt()) {
@@ -46,10 +48,12 @@ public class DictionaryCommandline {
                 int count = 0;
                 while ((line = bufferedReader.readLine()) != null) {
                     String[] parts = line.split("\t");
-                    if (parts.length == 4) {
+                    if (parts.length >= 4) {
                         // System.out.println(parts[0] + " coont " + parts[1]);
                         Dictionary.get().add(new Word(parts[0].trim().toLowerCase(), parts[1].trim(), parts[2].trim().toLowerCase(), parts[3].trim()));
                         count++;
+                    } else {
+//                        System.out.println(line);
                     }
                 }
                 System.out.println("Inserted " + count + " words from file successfully!");
