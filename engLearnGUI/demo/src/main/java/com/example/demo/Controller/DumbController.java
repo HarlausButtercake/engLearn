@@ -5,10 +5,7 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 
-
-public class MainMenuController {
-
-
+public class DumbController {
     @FXML
     private ListView<String> wawa;
 
@@ -19,5 +16,4 @@ public class MainMenuController {
 
         wawa.setItems(names);
     }
-
 }
