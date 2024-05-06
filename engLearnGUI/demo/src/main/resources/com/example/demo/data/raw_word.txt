@@ -1,0 +1,508 @@
+a	/ə/	Danh từ	một	
+ability	/əˈbɪlɪti/	danh từ	khả năng	
+able	/ˈeɪbl/	tính từ	có khả năng	
+about	/əˈbaʊt/	giới từ	khoảng	
+above	/əˈbʌv/	giới từ	trên, phía trên	
+accept	/əkˈsept/	động từ	chấp nhận	
+according (to)	/əˈkɔːrdɪŋ/	giới từ	theo	
+account	/əˈkaʊnt/	danh từ	tài khoản	
+across	/əˈkrɒs/	giới từ	Đi qua	
+act	/ækt/	động từ	hành động, đóng vai.	
+action	/ˈækʃən/	danh từ	hành động, hành vi.	
+activity	/ækˈtɪvəti/	danh từ	hoạt động.	
+actually	/ˈæktʃuəli/	trạng từ	thực sự, trong thực tế.	
+add	/æd/	động từ	cộng thêm, thêm vào.	
+address	/əˈdres/	danh từ	địa chỉ, nói chuyện với ai đó, giải quyết.	
+administration	/ədˌmɪnɪˈstreɪʃən/	danh từ	quản lý, sự điều hành.	
+admit	/ədˈmɪt/	động từ	thừa nhận, cho vào, công nhận.	
+adult	/ˈædʌlt/	danh từ	người trưởng thành.	
+affect	/əˈfekt/	động từ	ảnh hưởng, tác động.	
+after	/ˈæftɚ/	động từ	sau, sau khi.	
+again	/əˈɡen/	giới từ	lại, một lần nữa.	
+against	/əˈɡenst/	động từ	chống lại, phản đối.	
+age	/eɪdʒ/	danh từ	tuổi, thời gian sống.	
+agency	/ˈeɪdʒənsi/	danh từ	cơ quan, công ty, đại lý.	
+agent	/ˈeɪdʒənt/	danh từ	đại lý, người đại diện.	
+ago	/əˈɡoʊ/	trạng từ	trước đây, cách đây.	
+agree	/əˈɡri/	động từ	đồng ý, đồng thuận.	
+agreement	/əˈɡriːmənt/	danh từ	sự đồng ý, hợp đồng.	
+ahead	/əˈhed/	giới từ	phía trước, trước mặt.	
+air	/er/	danh từ	không khí	
+all	/ɔːl/	danh từ	tất cả, mọi thứ.	
+allow	/əˈlaʊ/	động từ	cho phép, chấp nhận.	
+almost	/ˈɔːlmoʊst/	trạng từ	gần như, hầu như.	
+alone	/əˈloʊn/	tính từ	một mình, cô đơn.	
+along	/əˈlɔːŋ/	giới từ	dọc theo, cùng với.	
+already	/ɔːlˈredi/	trạng từ	đã, đã xảy ra.	
+also	/ˈɔːlsoʊ/	từ nối	cũng, cũng như.	
+although	/ɔːlˈðoʊ/	từ nối	mặc dù, dù.	
+always	/ˈɔːlweɪz/	trạng từ	luôn luôn, luôn.	
+American	/əˈmerɪkən/	danh từ	người Mỹ, thuộc về Mỹ.	
+among	/əˈmʌŋ/	giới từ	trong số, giữa.	
+amount	/əˈmaʊnt/	danh từ	số lượng, tổng số.	
+analysis	/əˈnæləsɪs/	danh từ	phân tích, phân loại.	
+and	/ænd/	từ nối	và.	
+animal	/ˈænɪməl	danh từ	động vật.	
+another	/əˈnʌðɚ/	đại từ	một cái khác, một người khác.	
+answer	/ˈænsɚ/	danh từ	câu trả lời, trả lời.	
+any	/ˈeni/	lượng từ	bất kỳ, một số.	
+anyone	/ˈeniwʌn/	trạng từ	bất kỳ ai, ai đó.	
+anything	/ˈeniθɪŋ/	trạng từ	bất cứ điều gì, cái gì đó.	
+appear	/əˈpɪr/	động từ	xuất hiện, hiện ra.	
+apply	/əˈplaɪ/	động từ	áp dụng, nộp đơn.	
+approach	/əˈproʊtʃ/	danh từ	tiếp cận, phương pháp.	
+area	/ˈeriə/	danh từ	khu vực, diện tích.	
+argue	/ˈɑːrɡjuː/	động từ	tranh luận, bàn cãi.	
+arm	/ɑːrm/	danh từ	cánh tay, vũ khí.	
+around	/əɚaʊnd/	giới từ	xung quanh, xung quanh.	
+arrive	/əɚaɪv/	động từ	đến, tới nơi.	
+art	/ɑːrt/	danh từ	nghệ thuật.	
+article	/ˈɑːrtɪkl/	danh từ	bài báo, mục, mạo từ.	
+artist	/ˈɑːrtɪst/	danh từ	nghệ sĩ, họa sĩ.	
+as	/æz/	trạng từ	như, như là, khi, trong khi.	
+ask	/æsk/	động từ	hỏi, yêu cầu, đề nghị.	
+assume	/əˈsjuːm/	động từ	cho rằng, giả định.	
+at	/æt/	giới từ	tại, ở.	
+attack	/əˈtæk/	động từ	tấn công, công kích.	
+attention	/əˈtenʃən/	danh từ	sự chú ý, sự tập trung.	
+attorney	/əˈtɜːrni/	danh từ	luật sư, công tố viên.	
+audience	/ˈɔːdiəns/	danh từ	khán giả, công chúng.	
+author	/ˈɔːθɚ/	danh từ	tác giả, nhà văn.	
+authority	/əˈθɔːrəti/	danh từ	quyền lực, chính quyền.	
+available	/əˈveɪləbl/	tính từ	có sẵn, có thể sử dụng.	
+avoid	/əˈvɔɪd/	động từ	tránh, né.	
+away	/əˈweɪ/	giới từ	xa, đi xa.	
+baby	/ˈbeɪbi/	danh từ	em bé.	
+back	/bæk/	giới từ	phía sau, trở lại.	
+bad	/bæd/	tính từ	xấu, tồi, không tốt.	
+bag	/bæɡ/	danh từ	túi, cặp.	
+ball	/bɔːl/	danh từ	quả bóng, quả cầu.	
+bank	/bæŋk/	danh từ	ngân hàng.	
+bar	/bɑːr/	danh từ	thanh, quầy, bar.	
+base	/beɪs/	động từ	căn cứ, cơ sở.	
+be	/biː/	động từ tobe	là, ở.	
+beat	/biːt/	động từ	đánh, đập, đánh bại.	
+beautiful	/ˈbjuːtɪfəl/	tính từ	đẹp, xinh đẹp.	
+because	/bɪˈkɔːz/	từ nối	bởi vì, vì.	
+become	/bɪˈkʌm/	động từ	trở thành, trở nên.	
+bed	/bed/	danh từ	cái giường, nằm.	
+before	/bɪˈfɔːr/	giới từ	trước, trước khi.	
+begin	/bɪˈɡɪn/	động từ	bắt đầu, khởi đầu.	
+behavior	/bɪˈheɪvjɚ/	danh từ	hành vi, cách cư xử.	
+behind	/bɪˈhaɪnd/	giới từ	phía sau, đằng sau.	
+believe	/bɪˈliːv/	động từ	tin, tin tưởng.	
+benefit	/ˈbenɪfɪt/	danh từ	lợi ích, được lợi.	
+best	/best/	tính từ	tốt nhất, hay nhất.	
+better	/ˈbetɚ/	tính từ	tốt hơn, tốt hơn.	
+between	/bɪˈtwiːn /	giới từ	giữa, ở giữa.	
+beyond	/bɪˈjɑːnd/	giới từ	vượt ra ngoài, xa hơn.	
+big	/bɪɡ/	tính từ	lớn, to.	
+bill	/bɪl/	danh từ	hóa đơn, tờ tiền.	
+billion	/ˈbɪljən/	danh từ	tỷ.	
+bit	/bɪt/	lượng từ	một chút, một ít.	
+black	/blæk/	danh từ	đen, màu đen.	
+blood	/blʌd/	danh từ	máu, huyết.	
+blue	/bluː/	danh từ	màu xanh dương.	
+board	/bɔːrd/	danh từ	tấm ván, ban quản trị.	
+body	/ˈbɑːdi/	danh từ	cơ thể, thân thể.	
+book	/bʊk/	danh từ	sách, đặt chỗ.	
+born	/bɔːrn/	động từ	sinh ra, được sinh ra.	
+both	/boʊθ/	từ nối	cả hai, cùng.	
+box	/bɒks /	danh từ	hộp, thùng.	
+boy	/bɔɪ/	danh từ	cậu bé, con trai.	
+break	/breɪk /	động từ	phá vỡ, nghỉ ngơi.	
+bring	/brɪŋ/	động từ	mang, đưa đến.	
+brother	/ˈbrʌðɚ/	danh từ	anh em (nam).	
+budget	/ˈbʌdʒɪt/	danh từ	ngân sách, ngân sách.	
+build	/bɪld/	động từ	xây dựng, xây nên.	
+building	/ˈbɪldɪŋ/	danh từ	tòa nhà, công trình xây dựng.	
+business	/ˈbɪznəs/	danh từ	kinh doanh, doanh nghiệp.	
+but	/bʌt/	từ nối	nhưng, tuy nhiên.	
+buy	/baɪ/	động từ	mua, mua sắm.	
+by	/baɪ/	giới từ	bởi, bên cạnh.	
+call	/kɔːl/	động từ	gọi điện, gọi, kêu gọi.	
+camera	/ ˈkæmɚə/	động từ	máy ảnh, máy quay.	
+campaign	/kæmˈpeɪn/	danh từ	chiến dịch, cuộc vận động.	
+can	/kæn/	động từ khuyết thiếu	có thể.	
+cancer	/ˈkænsɚ/	danh từ	ung thư.	
+candidate	/ˈkændɪdət/	danh từ	ứng viên.	
+capital	/ˈkæpɪtl/	danh từ	thủ đô, vốn.	
+car	/kɑːr/	danh từ	xe hơi, ô tô.	
+card	/kɑːrd/	danh từ	thẻ	
+career	/kəɚɪr/	danh từ	sự nghiệp, nghề nghiệp.	
+carry	/ˈkæri/	động từ	mang, vận chuyển.	
+case	/keɪs/	danh từ	trường hợp, hộp đựng.	
+catch	/kætʃ/	động từ	bắt, nắm bắt.	
+cause	/kɔːz/	động từ	nguyên nhân, gây ra.	
+cell	/sel/	danh từ	tế bào, ngăn.	
+center	/ˈsentɚ/	danh từ	trung tâm, tâm điểm.	
+central	/ˈsentrəl/	tính từ	trung tâm, trung ương.	
+century	/ˈsentʃɚi/	danh từ	thế kỷ, 100 năm.	
+certain	/ˈsɜːrtən/	tính từ	chắc chắn, nhất định.	
+certainly	/ˈsɜːrtənli/	trạng từ	chắc chắn, nhất định.	
+chair	/tʃer/	danh từ	ghế, chủ tịch.	
+challenge	/ˈtʃælɪndʒ/	danh từ	thách thức, thử thách.	
+chance	/tʃæns/	danh từ	cơ hội, may mắn.	
+change	/tʃeɪndʒ/	động từ	thay đổi, biến đổi.	
+character	/ˈkærɪktɚ/	danh từ	nhân vật, tính cách.	
+charge	/tʃɑːrdʒ/	động từ	tính phí, cáo buộc.	
+check	/tʃek/	động từ	kiểm tra, thanh toán.	
+child	/ tʃaɪld/	danh từ	trẻ em, đứa trẻ.	
+choice	/tʃɔɪs/	danh từ	sự lựa chọn, sự chọn lựa.	
+choose	/tʃuːz/	động từ	chọn, lựa chọn.	
+church	/tʃɜːrtʃ/	danh từ	nhà thờ, giáo đường.	
+citizen	/ ˈsɪtɪzn /	danh từ	công dân, thành viên.	
+city	/ˈsɪti/	danh từ	thành phố.	
+civil	/ˈsɪvəl /	danh từ	dân sự, công dân.	
+claim	/kleɪm/	động từ	tuyên bố, đòi hỏi.	
+class	/klæs/	danh từ	lớp học, giai cấp.	
+clear	/klɪr/	tính từ	rõ ràng, trong sáng.	
+clearly	/ˈklɪrli/	trạng từ	rõ ràng, rành mạch.	
+close	/kloʊz/	động từ	gần, đóng lại.	
+coach	/koʊtʃ/	danh từ	huấn luyện viên, xe khách.	
+cold	/koʊld/	tính từ	lạnh, cảm lạnh.	
+collection	/kəˈlekʃən/	danh từ	bộ sưu tập, sự thu thập.	
+college	/ˈkɑːlɪdʒ/	danh từ	trường đại học, trường cao đẳng.	
+color	/ˈkʌlɚ/	danh từ	màu sắc, sắc thái.	
+come	/kʌm/	động từ	đến, đi đến.	
+commercial	/kəˈmɜːrʃəl/	tính từ	quảng cáo, thương mại.	
+common	/ˈkɑːmən/	tính từ	phổ biến, chung.	
+community	/kəˈmjuːnɪti/	danh từ	cộng đồng, cộng đồng.	
+company	/ˈkʌmpəni/	danh từ	công ty, công ty.	
+compare	/kəmˈper/	động từ	so sánh, đối chiếu.	
+computer	/ kəmˈpjuːtɚ/	danh từ	máy tính, máy vi tính.	
+concern	/kənˈsɜrn/	Động từ	quan tâm, lo ngại.	
+condition	/kənˈdɪʃən/	danh từ	điều kiện, trạng thái.	
+conference	/ˈkɑːnfɚəns/	danh từ	hội nghị, cuộc họp.	
+Congress	/ˈkɑːŋɡres /	danh từ	Quốc hội, Đại hội.	
+consider	/kənˈsɪdɚ/	động từ	xem xét, cân nhắc.	
+consumer	/kənˈsuːmɚ/	danh từ	người tiêu dùng, khách hàng.	
+contain	/kənˈteɪn/	động từ	chứa đựng, gồm có.	
+continue	/kənˈtɪnjuː/	động từ	tiếp tục, duy trì.	
+control	/kənˈtroʊl/	động từ	kiểm soát, quản lý.	
+cost	/kɔːst/	động từ	giá, chi phí.	
+could	/kʊd/	động từ khuyết thiếu	có thể, có khả năng.	
+country	/ˈkʌntri/	danh từ	quốc gia, đất nước.	
+couple	/ˈkʌpl/	danh từ	cặp đôi, hai người.	
+course	/kɔːrs/	danh từ	khóa học, quá trình.	
+court	/kɔːrt/	danh từ	tòa án, sân tennis.	
+cover	/ ˈkʌvɚ/	động từ	bìa, phủ, che đậy.	
+create	/kriˈeɪt/	động từ	tạo ra, sáng tạo.	
+crime	/kraɪm/	danh từ	tội phạm, tội ác.	
+cultural	/ˈkʌltʃɚəl/	tính từ	văn hóa, thuộc văn hóa.	
+culture	/ˈkʌltʃɚ/	danh từ	văn hóa, văn minh.	
+cup	/kʌp/	danh từ	cốc, ly.	
+current	/ˈkɜːrənt/	tính từ	hiện tại, dòng chảy.	
+customer	/ˈkʌstəmɚ/	danh từ	khách hàng, người mua hàng.	
+cut	/kʌt/	động từ	cắt, chặt.	
+dark	/dɑːrk/	tính từ	tối, đen.	
+data	/ˈdeɪtə/	danh từ	dữ liệu, thông tin.	
+daughter	/ˈdɔːtɚ/	danh từ	con gái, con ruột.	
+day	/deɪ/	danh từ	ngày, buổi ban ngày.	
+dead	/ded/	động từ	chết, đã mất.	
+deal	/diːl/	động từ	thỏa thuận, giao dịch.	
+death	/deθ/	danh từ	cái chết, sự qua đời.	
+debate	/dɪˈbeɪt/	động từ	tranh luận, cuộc tranh cãi.	
+decade	/ˈdekeɪd/	danh từ	thập kỷ, mười năm.	
+decide	/dɪˈsaɪd/	động từ	quyết định, giải quyết.	
+decision	/dɪˈsɪʒən/	danh từ	quyết định, sự đánh giá.	
+deep	/diːp/	tính từ	sâu, sự sâu sắc.	
+defense	/dɪˈfens/	động từ	phòng vệ, bảo vệ.	
+degree	/dɪˈɡriː/	động từ	bằng cấp, độ.	
+Democrat	/ˈdeməkræt /	danh từ	người Dân chủ, Đảng Dân chủ.	
+democratic	/ˌdeməˈkrætɪk/	tính từ	dân chủ, dân chủ.	
+describe	/dɪsˈkraɪb/	động từ	mô tả, miêu tả.	
+design	/dɪˈzaɪn/	danh từ	thiết kế, bản thiết kế.	
+despite	/dɪˈspaɪt/	giới từ	mặc dù, bất chấp.	
+detail	/ˈdiːteɪl/	danh từ	chi tiết, đặc điểm.	
+determine	/dɪˈtɜːrmɪn/	động từ	xác định, quyết định.	
+develop	/dɪˈveləp/	động từ	phát triển, tiến bộ.	
+development	/dɪˈveləpmənt/	danh từ	sự phát triển, quá trình phát triển.	
+die	/daɪ/	động từ	chết, qua đời.	
+difference	/ˈdɪfɚəns/	danh từ	sự khác biệt, sự khác nhau.	
+different	/ˈdɪfɚənt/	tính từ	khác nhau, khác biệt.	
+difficult	/ˈdɪfɪkəlt/	tính từ	khó khăn, khó.	
+dinner	/ˈdɪnɚ/	danh từ	bữa tối, bữa ăn tối.	
+direction	/dɪˈrekʃən/	danh từ	hướng, phương hướng.	
+director	/dɪˈrektɚ/	danh từ	giám đốc, đạo diễn.	
+discover	/ dɪˈskʌvɚ/	động từ	khám phá, tìm ra.	
+discuss	/dɪˈskʌs/	động từ	thảo luận, bàn thảo.	
+discussion	/dɪˈskʌʃən/	danh từ	cuộc thảo luận, cuộc bàn thảo.	
+disease	/dɪˈziz/	danh từ	bệnh tật, căn bệnh.	
+do	/duː/	động từ	làm, thực hiện.	
+doctor	/ˈdɑːktɚ/	danh từ	bác sĩ, y tá.	
+dog	/dɔːɡ/	danh từ	chó, con chó.	
+door	/dɔːr/	danh từ	cửa, cánh cửa.	
+down	/daʊn/	giới từ	xuống, về phía dưới.	
+draw	/drɔː/	động từ	vẽ, kéo.	
+dream	/driːm/	danh từ	giấc mơ, mơ mộng.	
+drive	/draɪv/	động từ	lái xe, điều khiển.	
+drop	/drɑːp /	động từ	rơi, làm rơi.	
+drug	/drʌɡ/	danh từ	thuốc, chất ma túy.	
+during	ˈdʊrɪŋ /	giới từ	trong suốt, trong khoảng thời gian.	
+each	/iːtʃ/	lượng từ	mỗi, từng cái.	
+early	/ˈɜːrli/	trạng từ	sớm, sớm hơn thường lệ.	
+east	/iːst/	danh từ	phía đông.	
+easy	/ ˈiːzi/	tính từ	dễ dàng, đơn giản.	
+eat	/iːt/	động từ	ăn, ăn uống.	
+economic	/ˌiːkəˈnɑːmɪk/	tính từ	kinh tế, liên quan đến kinh tế.	
+economy	/ɪˈkɑːnəmi/	danh từ	nền kinh tế, kinh tế.	
+edge	/edʒ/	danh từ	mép, cạnh.	
+education	/ˌedʒʊˈkeɪʃən/	danh từ	giáo dục, sự giáo dục.	
+effect	/ ɪˈfekt/	danh từ	hiệu quả, tác động.	
+effort	/ ˈefɚt/	danh từ	nỗ lực, sự cố gắng.	
+eight	/eɪt/	danh từ	tám, số tám.	
+either	/ˈiːðɚ/	trạng từ	hoặc là, một trong hai.	
+election	/ɪˈlekʃən/	danh từ	cuộc bầu cử, sự bỏ phiếu.	
+else	/els/	trạng từ	khác, nếu không.	
+employee	/ɪmˈplɔɪiː/	danh từ	nhân viên, người lao động.	
+end	/ end/	động từ	cuối, kết thúc.	
+energy	/ ˈenɚdʒi/	danh từ	năng lượng, sinh lực.	
+enjoy	/ɪnˈdʒɔɪ/	động từ	thưởng thức, tận hưởng.	
+enough	/ɪˈnʌf/	lượng từ	đủ, đủ rồi.	
+enter	/ ˈentɚ/	động từ	đi vào, nhập vào.	
+entire	/ɪnˈtaɪɚ/	tính từ	toàn bộ, hoàn toàn.	
+environment	/ɪnˈvaɪrənmənt /	danh từ	môi trường, môi trường sống.	
+environmental	/ɪnˌvaɪrənˈmentəl/	tính từ	liên quan đến môi trường, về môi trường.	
+especially	/ɪˈspeʃəli/	trạng từ	đặc biệt, nhất là.	
+establish	/ɪˈstæblɪʃ/	động từ	thành lập, thiết lập.	
+even	/ˈiːvn/	trạng từ	ngay cả, ngay cả khi.	
+evening	/ˈiːvnɪŋ/	danh từ	buổi tối, tối.	
+event	/ɪˈvent/	danh từ	sự kiện, sự việc.	
+ever	/ˈevɚ/	Trạng từ	từng, mọi khi.	
+every	/ˈevri/	lượng từ	mỗi, mọi.	
+everybody	/ˈevribɑːdi/	danh từ	mọi người, tất cả mọi người.	
+everyone	/ˈevrɪwʌn/	danh từ	mỗi người, tất cả mọi người.	
+everything	/ˈevriθɪŋ/	danh từ	mọi thứ, tất cả mọi thứ.	
+evidence	/ˈevɪdəns/	danh từ	bằng chứng, tài liệu.	
+exactly	/ɪɡˈzæktli/	trạng từ	chính xác, đúng.	
+example	/ɪɡˈzæmpl̩/	danh từ	ví dụ, gương mẫu.	
+executive	/ɪɡˈzekjətɪv/	tính từ	điều hành, quản lý.	
+exist	/ ɪɡˈzɪst/	động từ	tồn tại, có thực.	
+expect	/ɪkˈspekt/	động từ	mong đợi, dự đoán.	
+experience	/ɪkˈspɪriəns/	danh từ	kinh nghiệm, trải nghiệm.	
+expert	/ˈekspɜrt/	danh từ	chuyên gia, chuyên viên.	
+explain	/ɪkˈspleɪn/	động từ	giải thích, làm rõ.	
+eye	/aɪ/	danh từ	mắt, con mắt.	
+face	/feɪs/	danh từ	mặt, khuôn mặt.	
+fact	/fækt/	danh từ	sự thật, thực tế.	
+factor	/ˈfæktɚ/	danh từ	yếu tố, nhân tố.	
+fail	/feɪl/	động từ	thất bại, không thành công.	
+fall	/fɔːl/	động từ	rơi, ngã, sụp đổ.	
+family	/ˈfæməli/	danh từ	gia đình, họ hàng.	
+far	/fɑːr/	động từ	xa, xa xôi.	
+fast	/fæst/	tính từ	nhanh, nhanh chóng.	
+father	/ˈfɑːðɚ/	danh từ	cha, bố.	
+fear	/fɪr/	động từ	sợ, sợ hãi.	
+federal	/ˈfedɚəl/	danh từ	liên bang, liên bang hóa.	
+feel	/fiːl/	động từ	cảm thấy, cảm nhận.	
+feeling	/ˈfiːlɪŋ/	danh từ	cảm giác, tình cảm.	
+few	/fjuː /	lượng từ	vài, một ít.	
+field	/fiːld/	danh từ	cánh đồng, bãi, lĩnh vực.	
+fight	/faɪt/	danh từ	chiến đấu, đánh nhau.	
+figure	/ˈfɪɡjɚ/	danh từ	hình dạng, số liệu, con số.	
+fill	/fɪl/	động từ	lấp đầy, điền vào.	
+film	/fɪlm/	danh từ	phim, bộ phim.	
+final	/ˈfaɪnəl/	tính từ	cuối cùng, sau cùng.	
+finally	/ˈfaɪnəli/	trạng từ	cuối cùng, sau cùng.	
+financial	/faɪˈnænʃəl/	tính từ	tài chính, về tài chính.	
+find	/faɪnd/	động từ	tìm thấy, phát hiện.	
+fine	/faɪn/	tính từ	tốt, tuyệt vời, phạt tiền.	
+finger	/ˈfɪŋɡɚ/	danh từ	ngón tay.	
+finish	/ˈfɪnɪʃ/	động từ	hoàn thành, kết thúc.	
+fire	/faɪr/	danh từ	ửa, cháy, sa thải.	
+firm	/fɜːrm/	danh từ	công ty, công ty cố định, vững chắc.	
+first	/fɜːrst/	số thứ tự	đầu tiên, trước tiên.	
+fish	/fɪʃ/	danh từ	cá, câu cá.	
+five	/faɪv/	danh từ	năm, số năm.	
+floor	/flɔːr/	danh từ	sàn nhà, tầng.	
+fly	/flaɪ/	động từ	bay, con ruồi.	
+focus	/ˈfoʊkəs/	động từ	tập trung, nhìn chăm chú.	
+follow	/ˈfɑːloʊ/	động từ	theo sau, đi theo.	
+food	/fuːd/	danh từ	thức ăn, đồ ăn.	
+foot	/fʊt/	danh từ	chân, bàn chân.	
+for	/fɔːr/	giới từ	cho, vì, để.	
+force	/fɔːrs/	động từ	lực, cưỡng bức, ép buộc.	
+foreign	/ˈfɔːrɪn/	danh từ	nước ngoài, ngoại quốc.	
+forget	/fɚɡet/	động từ	quên, quên đi.	
+form	/fɔːrm/	động từ	hình thức, form.	
+former	/ˈfɔːrmɚ/	tính từ	trước, nguyên, cũ.	
+forward	/ˈfɔːrwɚd/	giới từ	về phía trước, tiến lên.	
+four	/fɔːr/	danh từ	bốn, số bốn.	
+free	/friː/	tính từ	miễn phí, tự do.	
+friend	/frend/	danh từ	bạn, người bạn.	
+from	/frɒm/	giới từ	từ, từ phía.	
+front	/frʌnt/	giới từ	mặt trước, phía trước.	
+full	/fʊl/	tính từ	đầy đủ, đầy.	
+fund	/fʌnd/	danh từ	quỹ, quỹ tiền, quỹ tài chính.	
+future	/ˈfjuːtʃɚ /	danh từ	tương lai, tương lai hơn.	
+game	/ɡeɪm/	danh từ	trò chơi, trò thể thao.	
+garden	/ˈɡɑːrdn/	danh từ	vườn, khu vườn.	
+gas	/ɡæs/	danh từ	khí, khí gas.	
+general	/ˈdʒenɚəl/	tính từ	tổng quát, chung, tướng.	
+generation	/ ˌdʒenəɚeɪʃən/	danh từ	thế hệ, đời, sự sinh ra.	
+get	/ɡet/	động từ	nhận được, đạt được.	
+girl	/ɡɜːrl/	danh từ	cô gái, con gái.	
+give	/ɡɪv/	động từ	cho, tặng, đưa.	
+glass	/ɡlæs/	danh từ	ly, cốc, kính.	
+go	/ɡoʊ/	động từ	đi, đi ra.	
+goal	/ɡoʊl/	danh từ	mục tiêu, bàn thắng.	
+good	/ɡʊd/	tính từ	tốt, tốt đẹp.	
+government	/ˈɡʌvɚnmənt/	danh từ	chính phủ, chính quyền.	
+great	/ɡreɪt/	tính từ	tuyệt vời, vĩ đại.	
+green	/ɡriːn/	danh từ	màu xanh lá cây, xanh.	
+ground	/ɡraʊnd/	danh từ	mặt đất, bãi đất, sân.	
+group	/ɡruːp/	danh từ	nhóm, nhóm hợp.	
+grow	/ɡroʊ/	động từ	mọc, phát triển, trưởng thành.	
+growth	/ɡroʊθ/	danh từ	sự tăng trưởng, sự phát triển.	
+guess	/ɡes/	động từ	đoán, phỏng đoán, ước chừng.	
+gun	/ɡʌn/	danh từ	súng, khẩu súng.	
+guy	/ɡaɪ/	danh từ	chàng trai, chàng.	
+hair	/her/	danh từ	tóc, mái tóc.	
+half	/hæf/	lượng từ	một nửa, nửa.	
+hand	/hænd/	danh từ	tay, bàn tay.	
+hang	/hæŋ/	động từ	treo, mắc, treo lên.	
+happen	/ˈhæpən/	động từ	xảy ra, xảy đến.	
+happy	/ˈhæpi/	tính từ	vui vẻ, hạnh phúc.	
+hard	/hɑːrd/	tính từ	khó khăn, cứng, cứng rắn.	
+have	/hæv/	động từ	có, sở hữu.	
+he	/hiː/	đại từ	anh ấy, ông ấy.	
+head	/hed /	danh từ	đầu, phần đầu.	
+health	/helθ	danh từ	sức khỏe, tình trạng sức khỏe.	
+hear	/hɪr/	động từ	nghe, lắng nghe.	
+heart	/hɑːrt/	danh từ	trái tim, lòng trắc ẩn.	
+heat	/hit/	danh từ	nhiệt, sức nóng.	
+heavy	/ˈhevi/	tính từ	nặng, nặng nề.	
+help	/help/	động từ	giúp đỡ, trợ giúp.	
+her	/hɚ/	đại từ	cô ấy, bà ấy.	
+here	/hɪr/	trạng từ	ở đây, tại đây.	
+herself	/hɜrˈself/	đại từ phản thân	chính bản thân cô ấy, chính bản thân bà ấy.	
+high	/haɪ/	tính từ	cao, cao hơn, mức cao.	
+him	/hɪm/	đại từ	anh ấy, ông ấy.	
+himself	/hɪmˈself/	đại từ phản thân	chính bản thân anh ấy, chính bản thân ông ấy.	
+his	/hɪz/	danh từ	của anh ấy, của ông ấy.	
+history	/ˈhɪstɚi/	danh từ	lịch sử, quá khứ.	
+hit	/hɪt/	động từ	đánh, đập, va chạm.	
+hold	/hoʊld/	động từ	cầm, giữ, nắm.	
+home	/hoʊm/	danh từ	nhà, gia đình, quê hương.	
+hope	/hoʊp/	động từ	hy vọng, hi vọng.	
+hospital	/ˈhɑːspɪtl/	danh từ	bệnh viện, viện dưỡng lão.	
+hot	/hɑt/	tính từ	nóng, nóng bức.	
+hotel	/hoʊˈtel /	danh từ	khách sạn.	
+hour	/aʊɚ/	danh từ	giờ, giờ đồng hồ.	
+house	/haʊs/	danh từ	ngôi nhà, căn nhà.	
+how	/haʊ/	từ để hỏi	như thế nào, làm sao.	
+however	/haʊˈevɚ/	trạng từ	tuy nhiên, dù sao.	
+huge	/hjuːdʒ/	tính từ	to lớn, khổng lồ.	
+human	/ˈhjuːmən/	danh từ	con người, loài người.	
+hundred	/ˈhʌndrəd/	danh từ	một trăm, hàng trăm.	
+husband	/ˈhʌzbənd/	danh từ	chồng, ông xã.	
+I	/aɪ/	danh từ	tôi, tớ, ta.	
+idea	/aɪˈdiə/	danh từ	ý tưởng, ý kiến.	
+identify	/aɪˈdentəˌfaɪ/	động từ	xác định, nhận biết.	
+if	/ɪf	từ nối	nếu, nếu như.	
+image	/ˈɪmɪdʒ	danh từ	hình ảnh, hình tượng.	
+imagine	/ɪˈmædʒɪn/	động từ	tưởng tượng, tưởng tượng ra.	
+impact	/ˈɪmpækt/	động từ	tác động, ảnh hưởng.	
+important	/ɪmˈpɔrtnt/	tính từ	quan trọng, trọng đại.	
+improve	/ɪmˈpruv/	động từ	cải thiện, cải tiến.	
+in	/ɪn/	giới từ	trong, ở trong.	
+include	/ɪnˈklud/	động từ	bao gồm, kể cả.	
+including	/ɪnˈkludɪŋ/	động từ	bao gồm, kể cả.	
+increase	/ɪnˈkris/	động từ	tăng, tăng lên.	
+indeed	/ɪnˈdid/	trạng từ	thực sự, quả thật.	
+indicate	/ˈɪndɪˌkeɪt/	động từ	chỉ ra, cho thấy.	
+individual	/ˌɪndɪˈvɪdʒuəl/	danh từ	cá nhân, riêng lẻ.	
+industry	/ˈɪndəstri/	danh từ	ngành công nghiệp, ngành nghề.	
+information	/ˌɪnfɚmeɪʃən/	danh từ	thông tin, tin tức.	
+inside	/ɪnˈsaɪd/	giới từ	bên trong, trong.	
+instead	/ɪnˈsted/	trạng từ	thay vì, thay vào đó.	
+institution	/ˌɪnstɪˈtuːʃən/	danh từ	tổ chức, cơ quan.	
+interest	/ˈɪntrəst/	danh từ	sự quan tâm, lợi ích.	
+interesting	/ˈɪntrəstɪŋ/	tính từ	thú vị, hấp dẫn.	
+international	/ˌɪntɚnæʃənəl/	tính từ	quốc tế, toàn cầu.	
+interview	/ˈɪntɚvjuː/	danh từ	cuộc phỏng vấn, cuộc trò chuyện.	
+into	/ˈɪntuː/	giới từ	vào trong, vào trong.	
+investment	/ɪnˈvestmənt/	danh từ	đầu tư, khoản đầu tư.	
+involve	/ɪnˈvɑlv/	động từ	liên quan, tham gia.	
+issue	/ˈɪʃuː/	danh từ	vấn đề, vấn đề.	
+it	/ɪt/	danh từ	nó, nó (đại từ nhân xưng).	
+item	/ˈaɪtəm/	danh từ	mục, hàng hóa.	
+its	/ɪts/	đại từ	của nó, của nó (đại từ sở hữu).	
+itself	/ɪtˈself /	đại từ phản thân	chính nó, nó tự.	
+job	/dʒɑb/	danh từ	công việc, nghề nghiệp.	
+join	/dʒɔɪn/	động từ	tham gia, gia nhập.	
+just	/dʒʌst/	trạng từ	chỉ, mới chỉ, đúng.	
+keep	/kiːp/	động từ	giữ, duy trì.	
+key	/kiː/	danh từ	chìa khóa, yếu tố quan trọng.	
+kid	/kɪd/	danh từ	đứa trẻ, con nít.	
+kill	/kɪl/	động từ	giết, sát hại.	
+kind	/kaɪnd/	tính từ	loại, thể loại; tử tế, tốt bụng.	
+kitchen	/ˈkɪtʃən/	danh từ	nhà bếp.	
+know	/noʊ/	động từ	biết, hiểu.	
+knowledge	/ˈnɑːlɪdʒ/	danh từ	kiến thức, tri thức.	
+land	/lænd/	danh từ	đất, đất đai.	
+language	/ˈlæŋɡwɪdʒ/	danh từ	ngôn ngữ.	
+large	/lɑːrdʒ/	tính từ	lớn, rộng.	
+last	/læst/	tính từ	cuối cùng, trước khi hết.	
+late	/leɪt/	tính từ	muộn, trễ; đã mất, đã qua đời.	
+later	/ˈleɪtɚ/	trạng từ	sau này, sau đó.	
+laugh	/læf/	động từ	cười	
+law	/lɔː/	danh từ	luật, pháp luật.	
+lawyer	/ˈlɔɪ.jɚ/	danh từ	người luật sư.	
+lay	/leɪ/	động từ	đặt, để, bố trí.	
+lead	/liːd/	động từ	dẫn dắt, dẫn đường.	
+leader	/ˈliːdɚ/	danh từ	người lãnh đạo, người dẫn đầu.	
+learn	/lɜːrn/	động từ	học, tìm hiểu.	
+least	/liːst/	trạng từ	ít nhất, nhỏ nhất.	
+leave	/liːv/	động từ	rời đi, ra đi.	
+left	/left/	động từ	trái, còn lại.	
+leg	/leɡ/	danh từ	chân.	
+legal	/ˈliːɡəl/	tính từ	hợp pháp, pháp lý.	
+less	/les/	tính từ	ít hơn, không nhiều.	
+let	/let/	động từ	để, cho phép.	
+letter	/ˈletɚ/	danh từ	lá thư, chữ cái.	
+level	/ˈlevəl/	danh từ	mức độ, trình độ.	
+lie	/laɪ/	động từ	nói dối, nằm.	
+life	/laɪf/	danh từ	cuộc sống, sự sống.	
+light	/laɪt/	danh từ	ánh sáng, nhẹ nhàng.	
+like	/laɪk/	động từ	giống, như.	
+likely	/ˈlaɪkli/	trạng từ	có khả năng, có thể.	
+line	/laɪn/	danh từ	dòng, hàng, đường.	
+list	/lɪst/	danh từ	danh sách, liệt kê.	
+listen	/ˈlɪsən/	động từ	nghe, lắng nghe.	
+little	/ˈlɪtəl/	lượng từ	nhỏ, ít.	
+live	/lɪv /	động từ	sống, sinh sống.	
+local	/ˈloʊkəl/	tính từ	địa phương.	
+long	/lɔːŋ/	tính từ	dài, lâu.	
+look	/lʊk/	động từ	nhìn.	
+lose	/luːz/	động từ	mất.	
+loss	/lɔːs/	danh từ	sự mất mát, tổn thất.	
+lot	/lɑːt/	lượng từ	nhiều, rất nhiều.	
+love	/lʌv/	động từ	yêu	
+low	/loʊ/	tính từ	thấp.	
+machine	/məˈʃiːn/	danh từ	máy móc, thiết bị.	
+magazine	/ˌmæɡəˈziːn/	danh từ	tạp chí, ấn phẩm.	
+main	/meɪn/	tính từ	chính, chủ yếu.	
+maintain	/meɪnˈteɪn /	động từ	duy trì, bảo quản.	
+major	/ˈmeɪdʒɚ/	tính từ	chính, quan trọng; chuyên ngành.	
+majority	/məˈdʒɔːrəti/	danh từ	đa số, phần lớn.	
+make	/meɪk/	động từ	làm, tạo ra.	
+man	/mæn/	danh từ	người đàn ông, người.	
+manage	/ˈmænɪdʒ/	động từ	quản lý, điều hành.	
+management	/ˈmænɪdʒmənt/	danh từ	quản lý, sự quản lý.	
+manager	/ˈmænɪdʒɚ/	danh từ	người quản lý, giám đốc.	
+many	/ˈmeni/	lượng từ	nhiều, nhiều.	
+market	/ˈmɑːrkɪt/	danh từ	thị trường, chợ.	
+marriage	/ˈmæriɪdʒ/	danh từ	hôn nhân, cuộc sống hôn nhân.	
+material	/məˈtɪriəl/	danh từ	vật liệu, nguyên liệu; chất liệu, tài liệu.	
+matter	/ˈmætɚ/	danh từ	vấn đề, điều quan trọng.	
+may	/meɪ/	động từ khuyết thiếu	có thể, có lẽ.	
+maybe	/ˈmeɪbiː/	trạng từ	có thể, có lẽ.	
+me	/miː/	đại từ	tôi, tớ.	
+mean	/miːn/	tính từ	có nghĩa là, ý chỉ.	
+measure	/ˈmeʒɚ/	danh từ	đo lường, biện pháp.	
+media	/ˈmidiə/	danh từ	truyền thông, phương tiện truyền thông.	
+medical	/ˈmedɪkl/	tính từ	y tế, thuộc về y học.	
+meet	/miːt/	động từ	gặp gỡ, họp.	
+meeting	/ˈmiːtɪŋ/	danh từ	cuộc họp, buổi gặp gỡ.	
