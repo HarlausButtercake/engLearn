@@ -1,6 +1,6 @@
 package com.example.eng_proj;
 
-import com.example.eng_proj.game.GameManagement;
+import com.example.eng_proj.Game.GameManagement;
 
 import static com.example.eng_proj.Main.scanner;
 

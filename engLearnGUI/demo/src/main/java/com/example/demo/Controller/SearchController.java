@@ -21,6 +21,13 @@ public class SearchController implements Initializable {
     @FXML
     private TextField textField;
 
+    @FXML
+    private TextField wTarget;
+    @FXML
+    private TextField wPronun;
+    @FXML
+    private TextField wDef;
+
     @Override
     public void initialize (URL url, ResourceBundle resourceBundle) {
         ObservableList<String> show = FXCollections.observableArrayList(Dictionary.getTargetArray(Dictionary.get()));
@@ -36,7 +43,8 @@ public class SearchController implements Initializable {
         wawa.setOnMouseClicked(event -> {
             if (event.getClickCount() == 2) { // Check for double-click
                 String selectedItem = wawa.getSelectionModel().getSelectedItem();
-                System.out.println("Selected Item: " + selectedItem);
+                // System.out.println("Selected Item: " + selectedItem);
+
             }
         });
 

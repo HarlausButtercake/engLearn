@@ -1,11 +1,10 @@
-package com.example.demo.Manager;
+package com.example.demo.Game;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Collections;
 // import java.util.Random;
 
 public class BasicQuestionManagement {
@@ -25,23 +24,7 @@ public class BasicQuestionManagement {
         return instance;
     }
 
-    public ArrayList<String> shuffleSelection(BasicQuestion ques, int diffi) {
-        // Random random = new Random();
-        ArrayList<String> randomElements = new ArrayList<>();
-        Collections.shuffle(ques.getWrongAnswer());
-        for (int i = 0; i < diffi; i++) {
-            if (i >= ques.getWrongAnswer().size()) {
-                break;
-            }
-            // int randomIndex = random.nextInt(ques.getWrongAnswer().size());
-            randomElements.add(ques.getWrongAnswer().get(i));
-        }
-        randomElements.add(ques.getAnswer());
-        Collections.shuffle(randomElements);
-        // this.answerKey = 
-        ques.setAnswerKey(randomElements.indexOf(ques.getAnswer()));
-        return randomElements;
-    }
+
 
 
 
@@ -53,14 +36,17 @@ public class BasicQuestionManagement {
                 int count = 0;
                 while ((line = bufferedReader.readLine()) != null) {
                     String[] parts = line.split("\t");
-                    if (parts.length >= 2) {
+                    if (parts.length > 2) {
                         ArrayList<String> wrong = new ArrayList<>();
                         for(int i = 2; i < parts.length; i++) {
                             wrong.add(parts[i].trim());
                         }
-                        Questionnaire.get().add(new BasicQuestion(parts[0].trim(), parts[1].trim(), wrong));
+                        Questionnaire.get().add(new MultipleOptions(parts[0].trim(), parts[1].trim(), wrong));
                         count++;
-                    }                
+                    } else if (parts.length == 2) {
+                        Questionnaire.get().add(new FillTheGap(parts[0].trim(), parts[1].trim()));
+                        count++;
+                    }
                 }
                 System.out.println("Inserted " + count + " questions from file successfully!");
             } catch (IOException e) {

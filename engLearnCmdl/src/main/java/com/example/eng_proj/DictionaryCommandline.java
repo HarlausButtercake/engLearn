@@ -10,7 +10,7 @@ import java.util.Set;
 //import static com.example.eng_proj.Main.dictionary;
 import static com.example.eng_proj.Main.scanner;
 
-public class DictionaryCommandline {
+public class DictionaryCommandline extends DictionaryManagement {
 
     private static DictionaryCommandline instance;
     public static DictionaryCommandline get() {
@@ -23,7 +23,7 @@ public class DictionaryCommandline {
     public int removeFromCommandline() {
         System.out.print("Enter word that needs removing: ");
         String rem = scanner.nextLine();
-        for (Word word: DictionaryManagement.get().searchKeyword(rem)) {
+        for (Word word: searchKeyword(rem)) {
             if (word.getTarget().equals(rem)) {
                 Dictionary.get().remove(new Word(word));
                 System.out.println("Word called \"" + rem + "\" has been removed!");
@@ -90,8 +90,7 @@ public class DictionaryCommandline {
     }
 
     public void showAllWords() {
-//        DictionaryManagement.get().sortAlpha();
-        DictionaryManagement.get().showAllWordsSequence();
+        showAllWordsSequence();
         System.out.print("Press Enter to continue...");
         scanner.nextLine();
     }
@@ -101,7 +100,7 @@ public class DictionaryCommandline {
     public void dictionaryCmdlSearcher() {
         System.out.print("Type in your keyword:");
         String key = scanner.nextLine();
-        DictionaryManagement.get().showWordArray(DictionaryManagement.get().searchKeyword(key));
+        showWordArray(searchKeyword(key));
         System.out.print("Press Enter to continue...");
         scanner.nextLine();
     }

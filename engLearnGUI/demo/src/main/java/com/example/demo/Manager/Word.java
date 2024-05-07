@@ -13,6 +13,13 @@ public class Word {
 //        this.word_explain = null;
 //    }
 
+    public Word(Word word) {
+        this.word_target = word.word_target;
+        this.word_explain = word.word_explain;
+        this.word_pronounce = word.word_pronounce;
+        this.word_type = word.word_type;
+    }
+
     public Word(String word_target, String word_pronounce, String word_type, String word_explain) {
         this.word_target = word_target;
         this.word_explain = word_explain;

@@ -1,4 +1,4 @@
-package com.example.eng_proj.game;
+package com.example.eng_proj.Game;
 
 import static com.example.eng_proj.Main.scanner;
 

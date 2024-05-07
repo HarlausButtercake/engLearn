@@ -1,8 +1,8 @@
-package com.example.demo.Manager;
+package com.example.eng_proj.Game;
 
 import java.util.ArrayList;
 
-public class Questionnaire extends ArrayList<BasicQuestion> {
+public class Questionnaire extends ArrayList<Question> {
     private static Questionnaire basicQuestionManagement;
 
 

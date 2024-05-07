@@ -1,5 +1,7 @@
 package com.example.demo.Manager;
 
+import com.example.demo.Game.BasicQuestionManagement;
+
 public class InitProgram {
     public InitProgram() {
 //        DictionaryCommandline dictionaryCommandline = new DictionaryCommandline();

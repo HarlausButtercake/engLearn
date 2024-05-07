@@ -8,8 +8,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-//import static com.example.eng_proj.Main.dictionary;
-// import static com.example.eng_proj.Main.scanner;
+
 
 public class DictionaryManagement {
 
@@ -50,7 +49,6 @@ public class DictionaryManagement {
             word.fullPrintWord();
         }
     }
-
 
 
 
