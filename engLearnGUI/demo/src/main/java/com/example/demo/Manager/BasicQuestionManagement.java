@@ -53,7 +53,7 @@ public class BasicQuestionManagement {
                 int count = 0;
                 while ((line = bufferedReader.readLine()) != null) {
                     String[] parts = line.split("\t");
-                    if (parts.length >= 3) {
+                    if (parts.length >= 2) {
                         ArrayList<String> wrong = new ArrayList<>();
                         for(int i = 2; i < parts.length; i++) {
                             wrong.add(parts[i].trim());
@@ -67,7 +67,7 @@ public class BasicQuestionManagement {
                 e.printStackTrace();
             }
         } else {
-            System.err.println("File not found!");
+            System.err.println("Questionnaire file not found!");
         }
     }
 }

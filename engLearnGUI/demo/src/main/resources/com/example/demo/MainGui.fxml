@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controller.MainController">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7A7A7A;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefWidth="80.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #FEFED5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <AnchorPane>
+                           <children>
+                              <ImageView fitHeight="64.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0">
+                                 <image>
+                                    <Image url="@images/4033369.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="60.0">
+                           <children>
+                              <Button fx:id="homeButton" alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #FEFED5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <graphic>
+                                    <Pane prefHeight="52.0" prefWidth="51.0" style="-fx-background-color: #c1a07f; -fx-background-radius: 10 10 10 10;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="14.0" layoutY="11.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@images/home.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Pane>
+                                 </graphic>
+                              </Button>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="2.0" />
+                           </VBox.margin>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="60.0">
+                           <children>
+                              <Button fx:id="searchButton" alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #FEFED5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <graphic>
+                                    <Pane prefHeight="52.0" prefWidth="51.0" style="-fx-background-color: #c1a07f; -fx-background-radius: 10 10 10 10;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="14.0" layoutY="11.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@images/search.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Pane>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="60.0">
+                           <children>
+                              <Button fx:id="modifyButton" alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #FEFED5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <graphic>
+                                    <Pane prefHeight="52.0" prefWidth="51.0" style="-fx-background-color: #c1a07f; -fx-background-radius: 10 10 10 10;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="14.0" layoutY="11.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@images/plus.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Pane>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="60.0">
+                           <children>
+                              <Button fx:id="transButton" alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #FEFED5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <graphic>
+                                    <Pane prefHeight="52.0" prefWidth="51.0" style="-fx-background-color: #c1a07f; -fx-background-radius: 10 10 10 10;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="14.0" layoutY="11.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@images/tr.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Pane>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="60.0">
+                           <children>
+                              <Button fx:id="gameButton" alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #FEFED5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <graphic>
+                                    <Pane prefHeight="52.0" prefWidth="51.0" style="-fx-background-color: #c1a07f; -fx-background-radius: 10 10 10 10;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="14.0" layoutY="11.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@images/games-icon-png-4.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Pane>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </VBox>
+               </children>
+               <HBox.margin>
+                  <Insets right="4.0" />
+               </HBox.margin>
+            </AnchorPane>
+            <AnchorPane fx:id="windowComp" prefHeight="600.0" prefWidth="716.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Pane prefHeight="600.0" prefWidth="722.0" style="-fx-background-color: #ADD8E6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/dict-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="522.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/book.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="194.0" layoutY="240.0" prefHeight="120.0" prefWidth="335.0" text="Welcome">
+                           <font>
+                              <Font name="Arial Bold" size="68.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

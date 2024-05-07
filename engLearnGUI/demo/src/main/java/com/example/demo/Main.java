@@ -10,7 +10,7 @@ import java.io.IOException;
 
 import com.example.demo.Manager.InitProgram;
 
-public class HelloApplication extends Application {
+public class Main extends Application {
 //    @Override
 //    public void start(Stage stage) throws IOException {
 //        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("main-menu.fxml"));
@@ -26,10 +26,11 @@ public class HelloApplication extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("menu.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("MainGui.fxml"));
         Parent root = loader.load();
         Scene scene = new Scene(root, 800, 600);
         primaryStage.setScene(scene);
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 

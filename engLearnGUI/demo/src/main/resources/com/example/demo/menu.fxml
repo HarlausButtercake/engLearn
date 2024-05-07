@@ -39,7 +39,7 @@
                               </AnchorPane>
                               <AnchorPane prefHeight="70.0" prefWidth="200.0" VBox.vgrow="NEVER">
                                  <children>
-                                    <TextField fx:id="textField" prefHeight="70.0" prefWidth="212.0" text="Type here to search..." AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="14.0">
+                                    <TextField fx:id="textField" prefHeight="70.0" prefWidth="212.0" promptText="Search..." AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="14.0">
                                        <font>
                                           <Font size="26.0" />
                                        </font>

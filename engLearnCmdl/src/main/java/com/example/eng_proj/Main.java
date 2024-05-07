@@ -10,6 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         new InitProgram();
+        scanner.nextLine();
         new CmdLine();
         scanner.close();
     }

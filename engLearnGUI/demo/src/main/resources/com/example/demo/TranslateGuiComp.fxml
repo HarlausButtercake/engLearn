@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controller.TransController">
+   <children>
+      <Pane layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="722.0" style="-fx-background-color: #ADD8E6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" layoutX="304.0" layoutY="280.0" prefHeight="41.0" prefWidth="114.0" style="-fx-background-color: #85A8D1; -fx-background-radius: 12 12 12 12;" text="Translate">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField layoutX="61.0" layoutY="70.0" prefHeight="196.0" prefWidth="601.0" style="-fx-background-radius: 10 10 10 10; -fx-background-color: #FFFFFF;" />
+            <TextField layoutX="61.0" layoutY="369.0" prefHeight="196.0" prefWidth="601.0" style="-fx-background-radius: 10 10 10 10; -fx-background-color: #FFFFFF;" />
+            <Label alignment="CENTER" layoutX="61.0" layoutY="26.0" prefHeight="41.0" prefWidth="74.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 12 12 12 12;" text="Eng">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="61.0" layoutY="325.0" prefHeight="41.0" prefWidth="74.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 12 12 12 12;" text="Viet">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="41.0" fitWidth="64.0" layoutX="145.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/sp.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

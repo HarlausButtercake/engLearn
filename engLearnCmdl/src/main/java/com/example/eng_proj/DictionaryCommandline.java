@@ -20,7 +20,24 @@ public class DictionaryCommandline {
         return instance;
     }
 
-    public void removeFromCommandline
+    public int removeFromCommandline() {
+        System.out.print("Enter word that needs removing: ");
+        String rem = scanner.nextLine();
+        for (Word word: DictionaryManagement.get().searchKeyword(rem)) {
+            if (word.getTarget().equals(rem)) {
+                Dictionary.get().remove(new Word(word));
+                System.out.println("Word called \"" + rem + "\" has been removed!");
+                System.out.println("Press Enter to continue...");
+                scanner.nextLine();
+                return 1;
+            }
+        }
+        System.out.println("There is no such word called \"" + rem + "\"");
+        System.out.println("Press Enter to continue...");
+        scanner.nextLine();
+        return 0;
+
+    }
 
     public void insertFromCommandline() {
         System.out.println("How many words do you want to add ? (Press 0 to return)");
@@ -57,18 +74,26 @@ public class DictionaryCommandline {
                     }
                 }
                 System.out.println("Inserted " + count + " words from file successfully!");
+                System.out.println("Press Enter to continue...");
+                scanner.nextLine();
             } catch (IOException e) {
                 e.printStackTrace();
                 System.out.println("Reading from file failed to succeed :3");
+                System.out.println("Press Enter to continue...");
+                scanner.nextLine();
             }
         } else {
             System.out.println("File not found!");
+            System.out.println("Press Enter to continue...");
+            scanner.nextLine();
         }
     }
 
     public void showAllWords() {
 //        DictionaryManagement.get().sortAlpha();
         DictionaryManagement.get().showAllWordsSequence();
+        System.out.print("Press Enter to continue...");
+        scanner.nextLine();
     }
 
 
@@ -77,6 +102,8 @@ public class DictionaryCommandline {
         System.out.print("Type in your keyword:");
         String key = scanner.nextLine();
         DictionaryManagement.get().showWordArray(DictionaryManagement.get().searchKeyword(key));
+        System.out.print("Press Enter to continue...");
+        scanner.nextLine();
     }
 
     public void removeDupeWords() {
@@ -94,5 +121,7 @@ public class DictionaryCommandline {
             }
         }
         System.out.println("Found and removed " + count + " words!");
+        System.out.println("Press Enter to continue...");
+        scanner.nextLine();
     }
 }

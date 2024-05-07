@@ -1,5 +1,7 @@
 package com.example.eng_proj;
 
+import com.example.eng_proj.game.GameManagement;
+
 import static com.example.eng_proj.Main.scanner;
 
 public class CmdLine {
@@ -40,7 +42,7 @@ public class CmdLine {
                     dictionaryCommandline.insertFromCommandline();
                     break;
                 case 3:
-                    dictionaryCommandline.insertFromCommandline();
+                    dictionaryCommandline.removeFromCommandline();
                     break;
                 case 4:
                     dictionaryCommandline.removeDupeWords();
