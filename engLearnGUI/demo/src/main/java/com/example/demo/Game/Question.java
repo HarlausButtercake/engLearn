@@ -1,4 +1,4 @@
-package com.example.eng_proj.Game;
+package com.example.demo.Game;
 
 
 import java.util.ArrayList;
@@ -50,9 +50,9 @@ public abstract class Question {
         this.answer = answer;
     }
 
-    public abstract String toString();
+    // public abstract ArrayList<String> loadQuestion();
 
-    public abstract int handle(int allowRedo);
+    public abstract int handle(int allowRedo, int i, ArrayList<String> selectionList);
 
     public boolean isCorrect(String submission) {
         return submission.equals(answer);

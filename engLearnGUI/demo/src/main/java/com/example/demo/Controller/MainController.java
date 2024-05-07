@@ -18,40 +18,49 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 
-public class MainController implements Initializable {
+public class MainController {
     @FXML
     private Button searchButton;
     @FXML
     private Button transButton;
+    @FXML
+    private Button gameButton;
 
     @FXML
     private AnchorPane windowComp;
 
     @FXML
-    private void changeWindow(String fxmlPath) {
+    protected void changeWindow(String fxmlPath, AnchorPane soso) {
         try {
             fxmlPath = "/com/example/demo/" + fxmlPath;
             AnchorPane dum = FXMLLoader.load(getClass().getResource(fxmlPath));
-            windowComp.getChildren().clear();
-            windowComp.getChildren().add(dum);
+            soso.getChildren().clear();
+            soso.getChildren().add(dum);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    @Override
-    public void initialize (URL url, ResourceBundle resourceBundle) {
+    @FXML
+    public void initialize () {
         searchButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                changeWindow("SearchGuiCompUpdt.fxml");
+                changeWindow("SearchGuiCompUpdt.fxml", windowComp);
             }
         });
 
         transButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                changeWindow("TranslateGuiComp.fxml");
+                changeWindow("TranslateGuiComp.fxml", windowComp);
+            }
+        });
+
+        gameButton.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                changeWindow("GameMenu.fxml", windowComp);
             }
         });
     }

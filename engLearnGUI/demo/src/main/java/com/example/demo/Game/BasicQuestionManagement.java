@@ -17,6 +17,7 @@ public class BasicQuestionManagement {
 //    }
 
     private static BasicQuestionManagement instance;
+
     public static BasicQuestionManagement get() {
         if (instance == null) {
             instance = new BasicQuestionManagement();
@@ -29,7 +30,7 @@ public class BasicQuestionManagement {
 
 
     public void insertQuestionFromFile() {
-        InputStream inputStream = getClass().getResourceAsStream("/questionnaire.txt");
+        InputStream inputStream = getClass().getResourceAsStream("/com/example/demo/data/questionnaire.txt");
         if (inputStream != null) {
             try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream))) {
                 String line;
@@ -44,8 +45,8 @@ public class BasicQuestionManagement {
                         Questionnaire.get().add(new MultipleOptions(parts[0].trim(), parts[1].trim(), wrong));
                         count++;
                     } else if (parts.length == 2) {
-                        Questionnaire.get().add(new FillTheGap(parts[0].trim(), parts[1].trim()));
-                        count++;
+                        // Questionnaire.get().add(new FillTheGap(parts[0].trim(), parts[1].trim()));
+                        // count++;
                     }
                 }
                 System.out.println("Inserted " + count + " questions from file successfully!");

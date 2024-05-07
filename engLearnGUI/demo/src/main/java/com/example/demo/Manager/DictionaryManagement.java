@@ -12,13 +12,13 @@ import java.util.Set;
 
 public class DictionaryManagement {
 
-    private static DictionaryManagement instance;
-    public static DictionaryManagement get() {
-        if (instance == null) {
-            instance = new DictionaryManagement();
-        }
-        return instance;
-    }
+    // private static DictionaryManagement instance;
+    // public static DictionaryManagement get() {
+    //     if (instance == null) {
+    //         instance = new DictionaryManagement();
+    //     }
+    //     return instance;
+    // }
 
     public void sortAlpha() {
         Dictionary.get().sort((o1, o2)

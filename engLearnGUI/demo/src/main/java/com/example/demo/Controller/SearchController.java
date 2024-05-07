@@ -1,9 +1,11 @@
 package com.example.demo.Controller;
 
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 import com.example.demo.Manager.Dictionary;
+import com.example.demo.Manager.DictionaryCommandline;
 import com.example.demo.Manager.DictionaryManagement;
 import com.example.demo.Manager.Word;
 
@@ -30,12 +32,16 @@ public class SearchController implements Initializable {
 
     @Override
     public void initialize (URL url, ResourceBundle resourceBundle) {
+        // ArrayList<Word> arrBase = new ArrayList<>();
         ObservableList<String> show = FXCollections.observableArrayList(Dictionary.getTargetArray(Dictionary.get()));
         wawa.setItems(show);
 
         textField.textProperty().addListener((observable, oldValue, newValue) -> {
             // System.out.println(newValue);;
-            ObservableList<String> bum = FXCollections.observableArrayList(Dictionary.getTargetArray(DictionaryManagement.get().searchKeyword(newValue)));
+            // arrBase.clear();
+            // // arrBase = new ArrayList<>();
+            ArrayList<Word> arrBase = DictionaryCommandline.get().searchKeyword(newValue);
+            ObservableList<String> bum = FXCollections.observableArrayList(Dictionary.getTargetArray(arrBase));
             wawa.getItems().clear();
             wawa.setItems(bum);
         });
@@ -44,7 +50,10 @@ public class SearchController implements Initializable {
             if (event.getClickCount() == 2) { // Check for double-click
                 String selectedItem = wawa.getSelectionModel().getSelectedItem();
                 // System.out.println("Selected Item: " + selectedItem);
-
+                Word word = new Word(DictionaryCommandline.get().searchKeyword(selectedItem).get(0));
+                wTarget.setText(word.getTarget());;
+                wPronun.setText(word.getWord_pronounce());;
+                wDef.setText(word.getExplain());;
             }
         });
 
