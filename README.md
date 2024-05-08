@@ -6,7 +6,7 @@
 + Ứng dụng từ điển giúp người dùng tra cứu từ vựng một cách đơn giản
 + Ứng dụng viết bằng ngôn ngữ Java và thư viện JavaFx
 + Ứng dụng có tích hợp thêm trò chơi để giúp người dùng luyện tập
-![](https://drive.google.com/file/d/1RDoo3af83juGRWu7HTpKpYBsFU066Bn_/view?usp=sharing))
+![](https://drive.google.com/file/d/1RDoo3af83juGRWu7HTpKpYBsFU066Bn_/view?usp=sharing)
 # Tính năng
 + Khi nhập từ cần tra vào ô tìm kiếm, ứng dụng sẽ đưa ra các đề xuất
 + Ứng dụng có chức năng thêm/xoá từ vựng
