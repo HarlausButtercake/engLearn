@@ -14,9 +14,9 @@
 + Người dùng còn có thể dịch từ hoặc câu như ứng dụng Google Translate
 # UML Diagram
 + Cmdl
-![](https://github.com/HarlausButtercake/engLearn/blob/main/engLearnGUI/classUML.png)
+![](https://github.com/HarlausButtercake/engLearn/assets/163509600/f35027ac-a4fb-4891-8414-1ef4ea8d0177)
 + GUI
-![](https://github.com/HarlausButtercake/engLearn/assets/163509600/b58c7639-538d-45ef-b8dd-1ab116921202)
+![](https://github.com/HarlausButtercake/engLearn/blob/main/engLearnGUI/classUML.png)
 # Phát triển trong tương lai
 + Mở rộng thêm từ vựng
 + Tích hợp thêm nhiều game hơn
