@@ -20,7 +20,7 @@ public class DictionaryCommandline extends DictionaryManagement {
         return instance;
     }
 
-    public int removeFromGui(String rem) {
+    public Word removeFromGui(String rem) {
         // System.out.print("Enter word that needs removing: ");
         //  = scanner.nextLine();
         for (Word word: DictionaryCommandline.get().searchKeyword(rem)) {
@@ -29,32 +29,18 @@ public class DictionaryCommandline extends DictionaryManagement {
                 // System.out.println("Word called \"" + rem + "\" has been removed!");
                 // System.out.println("Press Enter to continue...");
                 // scanner.nextLine();
-                return 1;
+                return word;
             }
         }
         // System.out.println("There is no such word called \"" + rem + "\"");
         // System.out.println("Press Enter to continue...");
         // scanner.nextLine();
-        return 0;
+        return new Word(null);
 
     }
 
     public void insertFromCommandline(String dumb, String bump) {
-        // System.out.println("How many words do you want to add ? (Press 0 to return)");
-        // while (!scanner.hasNextInt()) {
-        //     System.out.println("Please enter a valid number!");
-        //     scanner.next();
-        // }
-        int count = 1;
-        // scanner.nextLine();
-
-        for (int i = 0; i < count; i++) {
-            System.out.print("Enter your word: ");
-            // String dumb = scanner.nextLine();
-            System.out.print("Enter the word's definition: ");
-            // String bump = scanner.nextLine();
             Dictionary.get().add(new Word(dumb, bump));
-        }
     }
 
     public void insertWordFromFile(InputStream inputStream) {

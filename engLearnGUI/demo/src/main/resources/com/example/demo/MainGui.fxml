@@ -71,7 +71,7 @@
                                  <graphic>
                                     <Pane prefHeight="52.0" prefWidth="51.0" style="-fx-background-color: #c1a07f; -fx-background-radius: 10 10 10 10;">
                                        <children>
-                                          <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="14.0" layoutY="11.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                                          <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="14.0" layoutY="8.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
                                              <image>
                                                 <Image url="@images/plus.png" />
                                              </image>

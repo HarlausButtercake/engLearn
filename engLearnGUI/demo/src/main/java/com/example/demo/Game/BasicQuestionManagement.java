@@ -34,7 +34,7 @@ public class BasicQuestionManagement {
         if (inputStream != null) {
             try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream))) {
                 String line;
-                int count = 0;
+                // int count = 0;
                 while ((line = bufferedReader.readLine()) != null) {
                     String[] parts = line.split("\t");
                     if (parts.length > 2) {
@@ -43,13 +43,13 @@ public class BasicQuestionManagement {
                             wrong.add(parts[i].trim());
                         }
                         Questionnaire.get().add(new MultipleOptions(parts[0].trim(), parts[1].trim(), wrong));
-                        count++;
-                    } else if (parts.length == 2) {
-                        // Questionnaire.get().add(new FillTheGap(parts[0].trim(), parts[1].trim()));
                         // count++;
+                    } else if (parts.length == 2) {
+                        Questionnaire.get().add(new FillTheGap(parts[0].trim(), parts[1].trim()));
+                        
                     }
                 }
-                System.out.println("Inserted " + count + " questions from file successfully!");
+                // System.out.println("Inserted " + count + " questions from file successfully!");
             } catch (IOException e) {
                 e.printStackTrace();
             }

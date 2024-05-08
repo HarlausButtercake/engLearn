@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.ResourceBundle;
 
 import com.example.demo.Main;
-import com.example.demo.Game.GameManagement;
+// import com.example.demo.Game.GameManagement;
 import com.example.demo.Game.Question;
 import com.example.demo.Game.Questionnaire;
 
@@ -29,14 +29,14 @@ public class GameMenuController extends MainController {
     private AnchorPane gameWindow;
 
     // protected ArrayList<String> selectionList;
-    protected int allowRedo;
+    // protected int allowRedo;
 
     @FXML
     public void initialize() {
         ranked.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                allowRedo = 0;
+                Questionnaire.get().setAllowRedo(0);
                 changeWindow("GameSelect.fxml", gameWindow);
             }
         });
@@ -44,41 +44,10 @@ public class GameMenuController extends MainController {
         casual.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                changeWindow("SearchGuiCompUpdt.fxml", gameWindow);
+                Questionnaire.get().setAllowRedo(1);
+                changeWindow("GameSelect.fxml", gameWindow);
             }
         });
     }
-
-    // @FXML
-    // public void initialize() {
-
-    // // casual.setOnAction(new EventHandler<ActionEvent>() {
-    // // @Override
-    // // public void handle(ActionEvent event) {
-
-    // // // changeWindow("GameSelect.fxml", gameWindow);
-    // // }
-    // // });
-
-    // ranked.setOnAction(new EventHandler<ActionEvent>() {
-    // @Override
-    // public void handle(ActionEvent event) {
-    // // Collections.shuffle(Questionnaire.get());
-    // // int i = 1;
-    // // for (Question question : Questionnaire.get()) {
-    // // selectionList = new ArrayList<>();
-    // // selectionList.add("null");
-    // // // System.out.print("Question " + i + ": ");
-    // // // System.out.println(question.toString());
-    // // question.handle(0, i, selectionList);
-
-    // // changeWindow("GameSelect.fxml", gameWindow);
-    // // i++;
-    // // }
-    // changeWindow("GameSelect.fxml", gameWindow);
-    // }
-    // });
-
-    // }
 
 }

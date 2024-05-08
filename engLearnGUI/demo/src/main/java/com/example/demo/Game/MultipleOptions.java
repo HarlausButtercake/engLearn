@@ -17,6 +17,9 @@ public class MultipleOptions extends Question {
     public void setAnswerKey(int answerKey) {
         this.answerKey = answerKey;
     }
+    public int getAnswerKey() {
+        return answerKey;
+    }
     public ArrayList<String> getWrongAnswer() {
         return wrongAnswer;
     }
@@ -35,38 +38,11 @@ public class MultipleOptions extends Question {
         return randomElements;
     }
 
-    public ArrayList<String> getSelection() {
-        ArrayList<String> select = this.shuffleSelection();
-        // String s = this.getQuestion() + "\n";
-        // s += "[1] " + select.get(0) + "\n";
-        // s += "[2] " + select.get(1) + "\n";
-        // if (select.size() >= 3) {
-        //     s += "[3] " + select.get(2) + "\n";
-        //     if (select.size() >= 4) {
-        //         s += "[4] " + select.get(3) + "\n";
-        //     }
-        // }
-        return select;
-    }
-
     @Override
-    public int handle(int allowRedo, int i, ArrayList<String> selectionList) {
-        selectionList.clear();
-        selectionList = new ArrayList<>(shuffleSelection());
-        
-        return 69;
-        // int legit;
-        // int wrongSize = wrongAnswer.size();
-        // while (true) {
-        //     if (legit == answerKey + 1) {
-        //         System.out.println(getReply(CORRECT));
-        //         return USER_CORRECT;
-        //     } else {
-        //         System.out.println(getReply(INCORRECT));
-        //         if (allowRedo == 0) {
-        //             return USER_INCORRECT;
-        //         }
-        //     }
-        // }
+    public ArrayList<String> toStringArr() {
+        ArrayList<String> select = new ArrayList<>();
+        select.add(question);
+        select.addAll(this.shuffleSelection());
+        return select;
     }
 }

@@ -25,9 +25,13 @@ public class MainController {
     private Button transButton;
     @FXML
     private Button gameButton;
+    @FXML
+    private Button modifyButton;
 
     @FXML
     private AnchorPane windowComp;
+
+    protected int score;
 
     @FXML
     protected void changeWindow(String fxmlPath, AnchorPane soso) {
@@ -47,6 +51,13 @@ public class MainController {
             @Override
             public void handle(ActionEvent event) {
                 changeWindow("SearchGuiCompUpdt.fxml", windowComp);
+            }
+        });
+
+        modifyButton.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                changeWindow("AddGui.fxml", windowComp);
             }
         });
 

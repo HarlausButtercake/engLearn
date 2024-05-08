@@ -2,6 +2,9 @@ module com.example.demo {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.graphics;
+    requires freetts;
+    requires json.simple;
+    // requires freetts;
 
 
     opens com.example.demo to javafx.fxml;

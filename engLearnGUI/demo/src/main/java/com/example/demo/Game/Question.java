@@ -15,15 +15,23 @@ public abstract class Question {
     protected final int USER_CORRECT = 1;
     protected final int USER_INCORRECT = 0;
 
-    protected final ArrayList<String> CORRECT = new ArrayList<>(Arrays.asList("That's right! ", "Well done!"
+    public final ArrayList<String> CORRECT = new ArrayList<>(Arrays.asList("That's right! ", "Well done!"
             , "That is correct!"));
 
-    protected final ArrayList<String> INCORRECT = new ArrayList<>(Arrays.asList("Oof! ", "That doesn't seem right. "
+    public final ArrayList<String> INCORRECT = new ArrayList<>(Arrays.asList("Oof! ", "That doesn't seem right. "
             , "That is NOT correct!"));
 
-    protected String getReply(ArrayList<String> arr) {
-        Collections.shuffle(arr);
-        return arr.get(0);
+    public String getReply(String str) {
+        String s = "";
+        if (str.equals("CORRECT")) {
+            Collections.shuffle(CORRECT);
+            s += CORRECT.get(0);
+        } else if (str.equals("INCORRECT")) {
+            Collections.shuffle(INCORRECT);
+            s += INCORRECT.get(0);
+        }
+        
+        return s;
     }
 
     public Question() {
@@ -50,9 +58,14 @@ public abstract class Question {
         this.answer = answer;
     }
 
-    // public abstract ArrayList<String> loadQuestion();
+    public ArrayList<String> toStringArr() {
+        ArrayList<String> rere = new ArrayList<>();
+        rere.add(question);
+        rere.add(answer);
+        return rere;
+    }
 
-    public abstract int handle(int allowRedo, int i, ArrayList<String> selectionList);
+    // public abstract int handle(int allowRedo, int i, ArrayList<String> selectionList);
 
     public boolean isCorrect(String submission) {
         return submission.equals(answer);

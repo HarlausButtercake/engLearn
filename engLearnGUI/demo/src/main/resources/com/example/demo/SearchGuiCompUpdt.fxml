@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.SplitPane?>
@@ -57,6 +58,15 @@
                                     <Font name="System Bold" size="34.0" />
                                  </font>
                               </Label>
+                              <Button fx:id="removeBut" layoutX="444.0" layoutY="12.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: EE4B2B;">
+                                 <graphic>
+                                    <ImageView fitHeight="25.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@images/can.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
                            </children>
                         </AnchorPane>
                         <AnchorPane prefHeight="162.0" prefWidth="499.0">
@@ -65,21 +75,25 @@
                                  <children>
                                     <AnchorPane prefHeight="137.0" prefWidth="499.0">
                                        <children>
-                                          <TextField fx:id="wTarget" editable="false" layoutX="48.0" layoutY="37.0" prefHeight="46.0" prefWidth="307.0" style="-fx-background-color: #FFFFFF;" text="text">
+                                          <TextField fx:id="wTarget" editable="false" layoutX="14.0" layoutY="10.0" prefHeight="46.0" prefWidth="307.0" style="-fx-background-color: #FFFFFF;">
                                              <font>
-                                                <Font name="Arial Bold" size="25.0" />
+                                                <Font name="Arial Bold" size="36.0" />
                                              </font>
                                           </TextField>
-                                          <TextField fx:id="wPronun" editable="false" layoutX="58.0" layoutY="92.0" prefHeight="35.0" prefWidth="164.0" style="-fx-background-color: #FFFFFF;" text="text">
+                                          <TextField fx:id="wPronun" editable="false" layoutX="21.0" layoutY="76.0" prefHeight="35.0" prefWidth="164.0" style="-fx-background-color: #FFFFFF;">
                                              <font>
-                                                <Font name="Arial Bold" size="15.0" />
+                                                <Font name="Arial Bold" size="24.0" />
                                              </font>
                                           </TextField>
-                                          <ImageView fitHeight="46.0" fitWidth="65.0" layoutX="387.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
-                                             <image>
-                                                <Image url="@images/sp.png" />
-                                             </image>
-                                          </ImageView>
+                                          <Button fx:id="speak" layoutX="422.0" layoutY="44.0" mnemonicParsing="false">
+                                             <graphic>
+                                                <ImageView fitHeight="46.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@images/sp.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </graphic>
+                                          </Button>
                                        </children>
                                     </AnchorPane>
                                  </children>
@@ -92,9 +106,9 @@
                                  <children>
                                     <AnchorPane prefHeight="379.0" prefWidth="504.0">
                                        <children>
-                                          <TextField fx:id="wDef" editable="false" layoutX="37.0" layoutY="29.0" prefHeight="329.0" prefWidth="430.0" style="-fx-background-color: #FFFFFF;" text="text">
+                                          <TextField fx:id="wDef" editable="false" layoutX="22.0" layoutY="25.0" prefHeight="329.0" prefWidth="430.0" style="-fx-background-color: #FFFFFF;">
                                              <font>
-                                                <Font name="Arial" size="20.0" />
+                                                <Font name="Arial Bold Italic" size="36.0" />
                                              </font>
                                           </TextField>
                                        </children>
