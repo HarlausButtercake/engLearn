@@ -64,33 +64,13 @@ public class DictionaryCommandline extends DictionaryManagement {
                 // scanner.nextLine();
             } catch (IOException e) {
                 e.printStackTrace();
-                // System.out.println("Reading from file failed to succeed :3");
-                // System.out.println("Press Enter to continue...");
-                // scanner.nextLine();
             }
         } else {
-            // System.out.println("File not found!");
-            // System.out.println("Press Enter to continue...");
-            // scanner.nextLine();
+
         }
     }
 
-//     public void showAllWords() {
-// //        DictionaryManagement.get().sortAlpha();
-//         DictionaryManagement.get().showAllWordsSequence();
-//         System.out.print("Press Enter to continue...");
-//         // scanner.nextLine();
-//     }
 
-
-
-    // public void dictionaryCmdlSearcher() {
-    //     System.out.print("Type in your keyword:");
-    //     String key = scanner.nextLine();
-    //     DictionaryManagement.get().showWordArray(DictionaryManagement.get().searchKeyword(key));
-    //     System.out.print("Press Enter to continue...");
-    //     scanner.nextLine();
-    // }
 
     public void removeDupeWords() {
         Set<String> uniqueFields = new HashSet<>();

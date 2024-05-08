@@ -12,13 +12,6 @@ import java.util.Set;
 
 public class DictionaryManagement {
 
-    // private static DictionaryManagement instance;
-    // public static DictionaryManagement get() {
-    //     if (instance == null) {
-    //         instance = new DictionaryManagement();
-    //     }
-    //     return instance;
-    // }
 
     public void sortAlpha() {
         Dictionary.get().sort((o1, o2)
@@ -43,14 +36,5 @@ public class DictionaryManagement {
         }
         return returnee;
     }
-
-    public void showWordArray(ArrayList<Word> words) {
-        for (Word word : words) {
-            word.fullPrintWord();
-        }
-    }
-
-
-
 }
 

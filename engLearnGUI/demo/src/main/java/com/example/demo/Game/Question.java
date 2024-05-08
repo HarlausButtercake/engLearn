@@ -11,9 +11,9 @@ public abstract class Question {
 //    private ArrayList<String> wrongAnswer;
 //    private int answerKey;
 //    BasicQuestionManagement manage = new BasicQuestionManagement();
-    protected final int USER_EXIT = 2;
-    protected final int USER_CORRECT = 1;
-    protected final int USER_INCORRECT = 0;
+//    protected final int USER_EXIT = 2;
+//    protected final int USER_CORRECT = 1;
+//    protected final int USER_INCORRECT = 0;
 
     public final ArrayList<String> CORRECT = new ArrayList<>(Arrays.asList("That's right! ", "Well done!"
             , "That is correct!"));
@@ -67,7 +67,7 @@ public abstract class Question {
 
     // public abstract int handle(int allowRedo, int i, ArrayList<String> selectionList);
 
-    public boolean isCorrect(String submission) {
-        return submission.equals(answer);
-    }
+//    public boolean isCorrect(String submission) {
+//        return submission.equals(answer);
+//    }
 }

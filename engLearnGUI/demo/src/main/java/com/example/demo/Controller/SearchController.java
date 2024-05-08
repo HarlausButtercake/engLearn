@@ -46,14 +46,12 @@ public class SearchController extends DictionaryCommandline {
     private ArrayList<Word> arrBase;
     @FXML
     public void initialize () {
-        // ArrayList<Word> arrBase = new ArrayList<>();
+        arrBase = searchKeyword("");
         ObservableList<String> show = FXCollections.observableArrayList(Dictionary.getTargetArray(Dictionary.get()));
         wawa.setItems(show);
 
         textField.textProperty().addListener((observable, oldValue, newValue) -> {
-            // System.out.println(newValue);;
-            // arrBase.clear();
-            // // arrBase = new ArrayList<>();
+            
             arrBase = searchKeyword(newValue);
             ObservableList<String> bum = FXCollections.observableArrayList(Dictionary.getTargetArray(arrBase));
             wawa.getItems().clear();

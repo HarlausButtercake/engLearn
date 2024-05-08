@@ -24,11 +24,6 @@ public class BasicQuestionManagement {
         }
         return instance;
     }
-
-
-
-
-
     public void insertQuestionFromFile() {
         InputStream inputStream = getClass().getResourceAsStream("/com/example/demo/data/questionnaire.txt");
         if (inputStream != null) {
