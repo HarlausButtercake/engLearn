@@ -11,13 +11,10 @@
 + Khi nhập từ cần tra vào ô tìm kiếm, ứng dụng sẽ đưa ra các đề xuất
 + Ứng dụng có chức năng thêm/xoá từ vựng
 + Ngoài ra ứng dụng có thể phát âm từ vựng
-+ Người dùng còn có thể dịch từ hoặc câu như ứng dụng Google Translate
++ Người dùng còn có thể dịch văn bản từ tiếng Anh sang tiếng Việt và ngược lại
 # UML Diagram
 + Cmdl
 ![](https://github.com/HarlausButtercake/engLearn/assets/163509600/f35027ac-a4fb-4891-8414-1ef4ea8d0177)
 + GUI
 ![](https://github.com/HarlausButtercake/engLearn/blob/main/engLearnGUI/classUML.png)
-# Phát triển trong tương lai
-+ Mở rộng thêm từ vựng
-+ Tích hợp thêm nhiều game hơn
-+ Phát triển giao diện đẹp hơn
+
